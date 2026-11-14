@@ -106,4 +106,4 @@ Metadata được chấm trên 6 câu test × top-4 = 24 bản ghi mỗi chiến
   - Thử hybrid BM25 + dense cho các câu nhiều từ khóa.
   - Mở rộng corpus sang nhiều chương để `chapter` trở thành trường lọc có ý nghĩa.
 
-**Công cụ AI:** dùng Claude (Claude Code) để hỗ trợ viết/sửa pipeline, đề xuất câu hỏi benchmark (evidence đã kiểm chứng tự động trên PDF), đề xuất nhãn thủ công kèm lý do và soạn báo cáo. Mọi số liệu trong báo cáo lấy trực tiếp từ `results/summary.json` và `results/traces.jsonl` của lần chạy thật.
+**Công cụ AI:** dùng Claude (Claude Code) để hỗ trợ viết/sửa pipeline, đề xuất câu hỏi benchmark (evidence đã kiểm chứng tự động trên PDF), đề xuất nhãn thủ công kèm lý do và soạn báo cáo. Ngoài ra, nó còn hỗ trợ việc push và pull dữ liệu lên Github Mọi số liệu trong báo cáo lấy trực tiếp từ `results/summary.json` và `results/traces.jsonl` của lần chạy thật.
