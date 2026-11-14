@@ -57,10 +57,10 @@ BENCHMARK = REPO / "benchmark"                      # benchmark.json
 RESULTS = REPO / "results"
 
 DEFAULT_MODEL = "openai/text-embedding-3-small"   # dùng khi EMBEDDING_MODEL trong .env để trống
-TOP_K = 3
+TOP_K = 4                                         # số chunk lấy về mỗi câu hỏi (ghi vào trace/manual_review); Hit@1/Hit@3 vẫn chỉ chấm trên 3 hạng đầu
 MIN_CONTENT_PAGES = 30                            # yêu cầu tối thiểu của lab
-FIXED_SIZE, FIXED_OVERLAP = 500, 100               # tham số chiến lược A
-PARAGRAPH_MAX_SIZE = 1500                          # tham số chiến lược B và C
+FIXED_SIZE, FIXED_OVERLAP = 400, 100               # tham số chiến lược A
+PARAGRAPH_MAX_SIZE = 600                          # tham số chiến lược B và C
 
 # Một "index" là một bộ chunk đã lưu. C tìm trên chính các chunk của B và chỉ thêm
 # filter, nên khác biệt B-C chỉ do filter (không embed lại lần hai).

@@ -1,11 +1,11 @@
 {
-  "started_at_utc": "2026-11-14T05:23:14+00:00",
+  "started_at_utc": "2026-11-14T15:04:35+00:00",
   "embedding": {
     "provider": "openrouter",
     "model": "openai/text-embedding-3-small",
     "dimensions": 1536,
-    "total_tokens": 51627,
-    "total_cost_usd": 0.001033,
+    "total_tokens": 53569,
+    "total_cost_usd": 0.001071,
     "query_document_handling": "same model, no prefix"
   },
   "vector_store": {
@@ -19,49 +19,49 @@
     "psycopg": "3.3.8",
     "pypdf": "6.21.4"
   },
-  "top_k": 3,
+  "top_k": 4,
   "strategies": {
     "A": {
       "index": "A",
       "use_filter": false,
-      "chunking": "fixed_size(size=500, overlap=100)"
+      "chunking": "fixed_size(size=400, overlap=100)"
     },
     "B": {
       "index": "B",
       "use_filter": false,
-      "chunking": "by_paragraph(max_size=1500)"
+      "chunking": "by_paragraph(max_size=600)"
     },
     "C": {
       "index": "B",
       "use_filter": true,
-      "chunking": "by_paragraph(max_size=1500)"
+      "chunking": "by_paragraph(max_size=600)"
     }
   },
   "indexes": {
     "A": {
-      "chunks": 291,
-      "total_characters": 138293,
-      "min": 147,
-      "median": 500,
-      "mean": 475.2,
-      "max": 500,
-      "rows_in_store": 291,
+      "chunks": 381,
+      "total_characters": 147293,
+      "min": 112,
+      "median": 400,
+      "mean": 386.6,
+      "max": 400,
+      "rows_in_store": 381,
       "rows_removed_for_dropped_documents": 0,
-      "ingest_seconds": 16.31,
-      "embedding_tokens": 28373,
-      "embedding_cost_usd": 0.000567
+      "ingest_seconds": 21.47,
+      "embedding_tokens": 30290,
+      "embedding_cost_usd": 0.000606
     },
     "B": {
-      "chunks": 99,
-      "total_characters": 112832,
-      "min": 54,
-      "median": 1389,
-      "mean": 1139.7,
-      "max": 1500,
-      "rows_in_store": 99,
+      "chunks": 235,
+      "total_characters": 112704,
+      "min": 32,
+      "median": 511,
+      "mean": 479.6,
+      "max": 600,
+      "rows_in_store": 235,
       "rows_removed_for_dropped_documents": 0,
-      "ingest_seconds": 6.63,
-      "embedding_tokens": 22979,
+      "ingest_seconds": 13.13,
+      "embedding_tokens": 22994,
       "embedding_cost_usd": 0.00046
     }
   },
@@ -76,6 +76,28 @@
     "A": {
       "dev": {
         "questions": 15,
+        "hit_at_1": 7,
+        "hit_at_3": 10,
+        "evidence_split_suspected": 5,
+        "filter_questions": 3,
+        "filter_compliant_top3": 3,
+        "hit_at_1_rate": 0.4667,
+        "hit_at_3_rate": 0.6667
+      },
+      "test": {
+        "questions": 6,
+        "hit_at_1": 5,
+        "hit_at_3": 6,
+        "evidence_split_suspected": 0,
+        "filter_questions": 2,
+        "filter_compliant_top3": 2,
+        "hit_at_1_rate": 0.8333,
+        "hit_at_3_rate": 1.0
+      }
+    },
+    "B": {
+      "dev": {
+        "questions": 15,
         "hit_at_1": 10,
         "hit_at_3": 13,
         "evidence_split_suspected": 2,
@@ -85,57 +107,35 @@
         "hit_at_3_rate": 0.8667
       },
       "test": {
-        "questions": 5,
+        "questions": 6,
         "hit_at_1": 4,
-        "hit_at_3": 5,
+        "hit_at_3": 6,
         "evidence_split_suspected": 0,
-        "filter_questions": 1,
-        "filter_compliant_top3": 1,
-        "hit_at_1_rate": 0.8,
-        "hit_at_3_rate": 1.0
-      }
-    },
-    "B": {
-      "dev": {
-        "questions": 15,
-        "hit_at_1": 8,
-        "hit_at_3": 14,
-        "evidence_split_suspected": 1,
-        "filter_questions": 3,
-        "filter_compliant_top3": 3,
-        "hit_at_1_rate": 0.5333,
-        "hit_at_3_rate": 0.9333
-      },
-      "test": {
-        "questions": 5,
-        "hit_at_1": 4,
-        "hit_at_3": 5,
-        "evidence_split_suspected": 0,
-        "filter_questions": 1,
-        "filter_compliant_top3": 1,
-        "hit_at_1_rate": 0.8,
+        "filter_questions": 2,
+        "filter_compliant_top3": 2,
+        "hit_at_1_rate": 0.6667,
         "hit_at_3_rate": 1.0
       }
     },
     "C": {
       "dev": {
         "questions": 15,
-        "hit_at_1": 8,
-        "hit_at_3": 14,
-        "evidence_split_suspected": 1,
+        "hit_at_1": 10,
+        "hit_at_3": 13,
+        "evidence_split_suspected": 2,
         "filter_questions": 3,
         "filter_compliant_top3": 3,
-        "hit_at_1_rate": 0.5333,
-        "hit_at_3_rate": 0.9333
+        "hit_at_1_rate": 0.6667,
+        "hit_at_3_rate": 0.8667
       },
       "test": {
-        "questions": 5,
+        "questions": 6,
         "hit_at_1": 4,
-        "hit_at_3": 5,
+        "hit_at_3": 6,
         "evidence_split_suspected": 0,
-        "filter_questions": 1,
-        "filter_compliant_top3": 1,
-        "hit_at_1_rate": 0.8,
+        "filter_questions": 2,
+        "filter_compliant_top3": 2,
+        "hit_at_1_rate": 0.6667,
         "hit_at_3_rate": 1.0
       }
     }

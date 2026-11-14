@@ -1,83 +1,46 @@
 ﻿document_id,page,char_position,index,chunk_id,text,coherence_0_2,reason
-openstax-pds-ch02,67,1180,A,openstax-pds-ch02:p67:fixed500-100:2,"d insights that can drive business growth and efficiency.
-With today’s ever-increasing volume of data, a robust approach to data collection is crucial for ensuring
+openstax-pds-ch02,67,1180,A,openstax-pds-ch02:p67:fixed400-100:3,"a, a robust approach to data collection is crucial for ensuring
 accurate and meaningful results. This process requires following a comprehensive and systematic
 methodology designed to ensure the quality, reliability, and validity of data gathered for analysis. It involves
 identifying and sourcing relevant data from diverse sources, including internal databases, external
-repositories, websites, and",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('d insights'), kết thúc giữa câu ('websites, and'); hiểu được ý chính nhưng thiếu đầu/cuối."
-openstax-pds-ch02,67,1180,B,openstax-pds-ch02:p67:para1500:0,"Figure 2.1 Periodic population surveys such as censuses help governments plan resources to supply public services. (credit:
-modification of work “Census 2010 @ La Fuente” by Jenn Turner/Flickr, CC BY 2.0)
-Chapter Outline
-2.1 Overview of Data Collection Methods
-2.2 Survey Design and Implementation
-2.3 Web Scraping and Social Media Data Collection
-2.4 Data Cleaning and Preprocessing
-2.5 Handling Large Datasets
-Introduction
-Data collection and preparation are the first steps in the data science cycle. They involve systematically
-gathering the necessary data to meet a project's objectives and ensuring its readiness for further analysis.
-Well-executed data collection and preparation serve as a solid foundation for effective, data-driven decision-
-making and aid in detecting patterns, trends, and insights that can drive business growth and efficiency.
-With today’s ever-increasing volume of data, a robust approach to data collection is crucial for ensuring
-accurate and meaningful results. This process requires following a comprehensive and systematic
+repositories, websites, and",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('a, a robust'), kết thúc giữa câu ('websites, and'); hiểu được ý chính nhưng thiếu đầu/cuối."
+openstax-pds-ch02,67,1180,B,openstax-pds-ch02:p67:para600:2,"This process requires following a comprehensive and systematic
 methodology designed to ensure the quality, reliability, and validity of data gathered for analysis. It involves
 identifying and sourcing relevant data from diverse sources, including internal databases, external
 repositories, websites, and user-generated information. And it requires meticulous planning and execution to
-guarantee the accuracy, comprehensiveness, and reliability of the collected data.",2,"[AI đề xuất - cần tác giả rà soát] Gồm chú thích hình, outline và trọn đoạn Introduction; bắt đầu/kết thúc ở ranh giới câu."
-openstax-pds-ch02,68,1777,A,openstax-pds-ch02:p68:fixed500-100:4,"companies heavily rely on experimental
-data from clinical trials to test the safety and efficacy of new drugs. This data is then used by their legal teams
-to gain regulatory approval and bring drugs to market.
-Before collecting data, it is essential for a data scientist to have a clear understanding of the project's
-objectives, which involves identifying the research question or problem and defining the target population or
-sample. If a survey or experiment is used, the design of the survey/expe",1,"[AI đề xuất - cần tác giả rà soát] Mất chủ ngữ đầu câu ('companies heavily rely' thiếu 'Pharmaceutical'), cắt giữa từ ('survey/expe')."
-openstax-pds-ch02,68,1777,B,openstax-pds-ch02:p68:para1500:1,"Social scientists, marketing
-specialists, and political analysts regularly use surveys to gather data on topics such as public opinion,
+guarantee the accuracy, comprehensiveness, and reliability of the collected data.
+Preparing, or “wrangling,” the collected data adequately prior to analysis is equally important.",2,[AI đề xuất - cần tác giả rà soát] Trọn câu; 'This process' suy ra được là thu thập dữ liệu ngay trong chunk; giữ trọn ý về quy trình thu thập + câu mở ý wrangling.
+openstax-pds-ch02,68,1777,A,openstax-pds-ch02:p68:fixed400-100:5,"n topics such as public opinion,
 customer satisfaction, and demographic information. Pharmaceutical companies heavily rely on experimental
 data from clinical trials to test the safety and efficacy of new drugs. This data is then used by their legal teams
 to gain regulatory approval and bring drugs to market.
+Before collecting data, it is essential for a data scientist to have a clear understanding",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('n topics such as'), kết thúc giữa câu ('a clear understanding')."
+openstax-pds-ch02,68,1777,B,openstax-pds-ch02:p68:para600:3,"Pharmaceutical companies heavily rely on experimental
+data from clinical trials to test the safety and efficacy of new drugs. This data is then used by their legal teams
+to gain regulatory approval and bring drugs to market.
 Before collecting data, it is essential for a data scientist to have a clear understanding of the project's
 objectives, which involves identifying the research question or problem and defining the target population or
-sample. If a survey or experiment is used, the design of the survey/experiment is also a critical step, requiring
-careful consideration of the type of questions, response options, and overall structure. A survey may be
-conducted online, via phone, or in person, while experimental research requires a controlled environment to
-ensure data validity and reliability.
-Types of Data
-Observational and transactional data play important roles in data analysis and related decision-making, each
-offering unique insights into different aspects of real-world phenomena and business operations.
-Observational data, often used in qualitative research, is collected by systematically observing and recording
-behavior without the active participation of the researcher.",2,[AI đề xuất - cần tác giả rà soát] Bắt đầu và kết thúc trọn câu; giữ trọn đoạn về mục tiêu dự án và định nghĩa observational data.
-openstax-pds-ch02,69,1473,A,openstax-pds-ch02:p69:fixed500-100:3," recorded and tracked.
+sample.",2,[AI đề xuất - cần tác giả rà soát] Bắt đầu và kết thúc trọn câu; ví dụ dữ liệu thử nghiệm lâm sàng + câu về mục tiêu dự án đầy đủ.
+openstax-pds-ch02,69,1473,A,openstax-pds-ch02:p69:fixed400-100:4," recorded and tracked.
 Transactional data can be used to understand patterns and trends, make predictions and recommendations,
 and identify potential opportunities or areas for improvement. For example, the health care industry may
 focus on transactional data related to patient interactions with health care providers and facilities, such as
-appointments, treatments, and medications prescribed. The retail industry may use transactional data on
-customer purchases and product returns, while the tra",1,"[AI đề xuất - cần tác giả rà soát] Mở đầu bằng mảnh câu ('recorded and tracked.'), kết thúc giữa từ ('the tra')."
-openstax-pds-ch02,69,1473,B,openstax-pds-ch02:p69:para1500:1,"For example, the health care industry may
+appointments, treatments, and medications prescribed. The",1,"[AI đề xuất - cần tác giả rà soát] Mở đầu bằng mảnh câu ('recorded and tracked.'), kết thúc bằng từ treo 'The'."
+openstax-pds-ch02,69,1473,B,openstax-pds-ch02:p69:para600:2,"It can include financial data, but it also includes data related to customer purchases, website clicks,
+user interactions, or any other type of activity that is recorded and tracked.
+Transactional data can be used to understand patterns and trends, make predictions and recommendations,
+and identify potential opportunities or areas for improvement. For example, the health care industry may
 focus on transactional data related to patient interactions with health care providers and facilities, such as
-appointments, treatments, and medications prescribed. The retail industry may use transactional data on
-customer purchases and product returns, while the transportation industry may analyze data related to ticket
-sales and passenger traffic.
-While observational data provides detailed descriptions of behavior, transactional data provides numerical
-data for statistical analysis. There are strengths and limitations with each of these, and the examples in this
-chapter will make use of both types.
-EXAMPLE 2.1
-Problem
-Ashley loves setting up a bird feeder in her backyard and watching the different types of birds that come to
-feed. She has always been curious about the typical number of birds that visit her feeder each day and has
-estimated the number based on the amount of food consumed. However, she has to visit her
-grandmother's house for three days and is worried about leaving the birds without enough food. In order
-to prepare the right amount of bird food for her absence, Ashley has decided to measure the total amount
-of feed eaten each day to determine the total amount of food needed for her three-day absence. Which
-method of data collection is best suited for Ashley's research on determining the total amount of food
-required for her three-day absence—observational or transactional?",2,[AI đề xuất - cần tác giả rà soát] Trọn câu; đoạn transactional data và đề bài Example 2.1 đầy đủ (lời giải ở trang sau).
-openstax-pds-ch02,70,1675,A,openstax-pds-ch02:p70:fixed500-100:3,"he hospital has seen an increase in patient
-complaints about long wait times for appointments and difficulties scheduling follow-up visits. Samantha is
-one of the data scientists tasked to collect data in order to analyze these issues.
-a. What methodology should be employed by Samantha to collect pertinent data for analyzing the recent
+appointments, treatments, and medications prescribed.",2,[AI đề xuất - cần tác giả rà soát] Trọn câu; 'It' được làm rõ ngay câu sau (transactional data); giữ trọn đoạn công dụng của transactional data.
+openstax-pds-ch02,70,1675,A,openstax-pds-ch02:p70:fixed400-100:5,"rtinent data for analyzing the recent
 surge in patient complaints regarding extended appointment wait times and difficulties in scheduling
 follow-up visits at the hospital?
-b. What strategies could be",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('he hospital'), cắt giữa câu hỏi b; hiểu được bối cảnh một phần."
-openstax-pds-ch02,70,1675,B,openstax-pds-ch02:p70:para1500:1,"What methodology should be employed by Samantha to collect pertinent data for analyzing the recent
+b. What strategies could be used to analyze the data?
+Solution
+a. Explore the stored information as transactional data
+b. Collecting transactional data for analysis can be achieved by utilizing various sources within the
+hospit",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('rtinent data'), cắt giữa từ ('hospit'); thiếu đề bài Example 2.2."
+openstax-pds-ch02,70,1675,B,openstax-pds-ch02:p70:para600:3,"What methodology should be employed by Samantha to collect pertinent data for analyzing the recent
 surge in patient complaints regarding extended appointment wait times and difficulties in scheduling
 follow-up visits at the hospital?
 b. What strategies could be used to analyze the data?
@@ -85,28 +48,15 @@ Solution
 a. Explore the stored information as transactional data
 b. Collecting transactional data for analysis can be achieved by utilizing various sources within the
 hospital setting. These sources include:
-1. Electronic Health Records (EHRs): Samantha can gather data from the hospital's electronic health
-records system. This data may include patients' appointment schedules, visit durations, and wait times.
-This information can help identify patterns and trends in appointment scheduling and wait times.
-2. Appointment Booking System: Samantha can gather data from the hospital's appointment booking
-system. This data can include appointment wait times, appointment types (e.g., primary care,
-specialist), and scheduling difficulties (e.g., appointment availability, cancellations). This information
-can help identify areas where the booking system may be causing delays or challenges for patients.
-3. Hospital Call Center: Samantha can gather data from the hospital's call center, which is responsible for
-booking appointments over the phone. This data can include call wait times, call duration, and reasons
-for call escalations.",1,"[AI đề xuất - cần tác giả rà soát] Thiếu phần đặt vấn đề Example 2.2 (bắt đầu từ câu hỏi a), danh sách nguồn dữ liệu bị cắt sau mục 3/4."
-openstax-pds-ch02,71,1915,A,openstax-pds-ch02:p71:fixed500-100:4,"on plant growth, which can serve as a valuable resource for
-further research and understanding of this relationship.
-2.2 Survey Design and Implementation
-Learning Outcomes
-By the end of this section, you should be able to:
+1.",1,"[AI đề xuất - cần tác giả rà soát] Thiếu phần đặt vấn đề Example 2.2 (Samantha, bệnh viện); kết thúc bằng mục danh sách treo '1.'."
+openstax-pds-ch02,71,1915,A,openstax-pds-ch02:p71:fixed400-100:6,"you should be able to:
 • 2.2.1 Describe the elements of survey design and identify the steps data scientists take to ensure the
 reliability of survey results.
 • 2.2.2 Describe methods for avoiding bias in survey questions.
 • 2.2.3 Describe various sampling techniques and the advantages of each.
-Surv",1,"[AI đề xuất - cần tác giả rà soát] Ghép mảnh cuối mục 2.1 (thí nghiệm cây) với tiêu đề + learning outcomes 2.2, kết thúc 'Surv'."
-openstax-pds-ch02,71,1915,B,openstax-pds-ch02:p71:para1500:1,"The measurements of
-plant height were obtained and accurately recorded every week. This approach allowed for the collection of
+Surveys are a common strategy for gathering data in a wide range of domains, including market research,
+",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa câu ('you should be able to:'), thiếu tiêu đề mục 2.2; kết thúc giữa câu ('market research,')."
+openstax-pds-ch02,71,1915,B,openstax-pds-ch02:p71:para600:3,"This approach allowed for the collection of
 precise and reliable data on the impact of sunlight on plant growth, which can serve as a valuable resource for
 further research and understanding of this relationship.
 2.2 Survey Design and Implementation
@@ -115,117 +65,56 @@ By the end of this section, you should be able to:
 • 2.2.1 Describe the elements of survey design and identify the steps data scientists take to ensure the
 reliability of survey results.
 • 2.2.2 Describe methods for avoiding bias in survey questions.
-• 2.2.3 Describe various sampling techniques and the advantages of each.
-Surveys are a common strategy for gathering data in a wide range of domains, including market research,
-social sciences, and education. Surveys collect information from a sample of individuals and often use
-questionnaires to collect data. Sampling is the process of selecting a subset of a larger population to
-represent and analyze information about that population.
-Designing the Survey
-The process of data collection through surveys is a crucial aspect of research—and one that requires careful
-planning and execution to gather accurate and reliable data. The first step, as stated earlier, is to clearly define
-the research objectives and determine the appropriate target population. This will help you structure the
-survey and identify the specific questions that need to be included.
-Constructing good surveys is hard.",1,[AI đề xuất - cần tác giả rà soát] Trọn câu nhưng trộn hai mục: đuôi thí nghiệm 2.1 và phần mở đầu 2.2; ý chính 2.2 đọc hiểu được.
-openstax-pds-ch02,72,2181,A,openstax-pds-ch02:p72:fixed500-100:5,"using customer
-databases, or targeting specific demographics, such as age or location.
-Sampling is necessary in a wide range of data science projects to make data collection more manageable and
-cost-effective while still drawing meaningful conclusions. A variety of techniques can be employed to
-determine a subset of data from a larger population to perform research or construct hypotheses about the
-entire population. The choice of a sampling technique depends upon the nature and features of the
-",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa câu ('using customer databases'), kết thúc giữa câu ('nature and features of the')."
-openstax-pds-ch02,72,2181,B,openstax-pds-ch02:p72:para1500:1,"An example of a biased survey question in a survey conducted by a shampoo company might be ""Do you
-prefer our brand of shampoo over cheaper alternatives?"" This question is biased because it assumes that the
-respondent prefers the company's brand over others. A more unbiased and accurate question would be ""What
-factors do you consider when choosing a shampoo brand?"" This allows for a more detailed and accurate
-response. The biased question could have led to inflated results in favor of the company's brand.
-Sampling
+• 2.2.3 Describe various sampling techniques and the advantages of each.",1,[AI đề xuất - cần tác giả rà soát] Trọn câu nhưng trộn hai mục: đuôi thí nghiệm cây (2.1) và tiêu đề + learning outcomes 2.2.
+openstax-pds-ch02,72,2181,A,openstax-pds-ch02:p72:fixed400-100:6,"ampling
 The next step in the data collection process is to choose a participant sample to ideally represent the
 restaurant's customer base. Sampling could be achieved by randomly selecting customers, using customer
 databases, or targeting specific demographics, such as age or location.
 Sampling is necessary in a wide range of data science projects to make data collection more manageable and
+cost-e",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('ampling'), kết thúc giữa từ ('cost-e')."
+openstax-pds-ch02,72,2181,B,openstax-pds-ch02:p72:para600:4,"Sampling is necessary in a wide range of data science projects to make data collection more manageable and
 cost-effective while still drawing meaningful conclusions. A variety of techniques can be employed to
 determine a subset of data from a larger population to perform research or construct hypotheses about the
 entire population. The choice of a sampling technique depends upon the nature and features of the
-population being studied as well as the objectives of the research. When using a survey, researchers must also
-consider the tool(s) that will be used for distributing the survey, such as through email, social media, or
-physically distributing questionnaires at the restaurant.",2,[AI đề xuất - cần tác giả rà soát] Trọn ví dụ câu hỏi thiên lệch và phần mở đầu Sampling; ranh giới ở cuối câu.
-openstax-pds-ch02,73,2223,A,openstax-pds-ch02:p73:fixed500-100:5,"le or items for the sample based
-on their availability and convenience to the data science research. For example, a researcher may choose
+population being studied as well as the objectives of the research.",2,"[AI đề xuất - cần tác giả rà soát] Trọn đoạn giới thiệu Sampling (vì sao cần lấy mẫu, chọn kỹ thuật theo gì); ranh giới ở cuối câu."
+openstax-pds-ch02,73,2223,A,openstax-pds-ch02:p73:fixed400-100:7," For example, a researcher may choose
 to survey students in their classroom or manipulate data from social media users. Convenience sampling
 is effortless to achieve, and it is useful for exploratory studies. However, it may not provide a
 representative sample as it is prone to selection bias in that individuals who are more readily available or
 willing to participate may be overrepresented.
-An ex",1,"[AI đề xuất - cần tác giả rà soát] Mất tên kỹ thuật ở đầu ('le or items' thiếu '4. Convenience sampling'), kết thúc 'An ex'."
-openstax-pds-ch02,73,2223,B,openstax-pds-ch02:p73:para1500:1,"An example of cluster sampling would be a study on the effectiveness of a new educational program in a
-state. The state is divided into clusters based on school districts. The researcher uses a random selection
-process to choose a sample of school districts and then collects data from all the schools within those
-districts. This method allows the researcher to obtain a representative sample of the state's student
-population without having to visit each individual school, saving time and resources.
-4. Convenience sampling. Convenience sampling applies to selecting people or items for the sample based
-on their availability and convenience to the data science research. For example, a researcher may choose
+An ex",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu bằng 'For example' (thiếu định nghĩa convenience sampling), kết thúc giữa từ ('An ex')."
+openstax-pds-ch02,73,2223,B,openstax-pds-ch02:p73:para600:4,"For example, a researcher may choose
 to survey students in their classroom or manipulate data from social media users. Convenience sampling
 is effortless to achieve, and it is useful for exploratory studies. However, it may not provide a
 representative sample as it is prone to selection bias in that individuals who are more readily available or
 willing to participate may be overrepresented.
 An example of convenience sampling would be conducting a survey about a new grocery store in a busy
-shopping mall. A researcher stands in front of the store and approaches people who are coming out of the
-store to ask them about their shopping experience.",2,[AI đề xuất - cần tác giả rà soát] Chứa trọn định nghĩa convenience sampling kèm tên mục và ví dụ cluster trước đó; ví dụ convenience bị cắt ở cuối nhưng vị trí mẫu trọn ý.
-openstax-pds-ch02,74,2237,A,openstax-pds-ch02:p74:fixed500-100:5,"t relationship with the research topic. Quota sampling is generally used in market research and
-opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of
+shopping mall.",2,"[AI đề xuất - cần tác giả rà soát] Thiếu câu định nghĩa ở trước, nhưng tên kỹ thuật, ưu/nhược và ví dụ đều trọn; kết thúc ở cuối câu."
+openstax-pds-ch02,74,2237,A,openstax-pds-ch02:p74:fixed400-100:7,"ion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of
 individuals. However, it is important to note that the results of quota sampling may not accurately
 represent the entire population, as the sample is not randomly selected and may be biased toward certain
-characteristics. Therefore, the findings from studies using quota sampling should be interpreted w",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('t relationship'), kết thúc giữa từ ('interpreted w')."
-openstax-pds-ch02,74,2237,B,openstax-pds-ch02:p74:para1500:1,"This type of sampling can be useful in
-studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of
-findings.
-8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select
-participants based on predetermined quotas to guarantee that a certain number or percentage of the
-population of interest is represented in the sample. These quotas are based on specific demographic
-characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or
-indirect relationship with the research topic. Quota sampling is generally used in market research and
+characteristics. Therefore, the findings from studies using quota sampling should be interpreted w",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('ion polls'), kết thúc giữa từ ('interpreted w')."
+openstax-pds-ch02,74,2237,B,openstax-pds-ch02:p74:para600:5,"Quota sampling is generally used in market research and
 opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of
 individuals. However, it is important to note that the results of quota sampling may not accurately
 represent the entire population, as the sample is not randomly selected and may be biased toward certain
 characteristics. Therefore, the findings from studies using quota sampling should be interpreted with
 caution.
-9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random
-by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
-commonly used in studies that involve recruiting participants from a specific population, such as a specific
-community or organization.",2,[AI đề xuất - cần tác giả rà soát] Chứa trọn mục 8 Quota sampling và phần đầu mục 9; ranh giới ở cuối câu.
-openstax-pds-ch02,75,2104,A,openstax-pds-ch02:p75:fixed500-100:5,"ween exercise and mental
+9. Volunteer sampling.",2,[AI đề xuất - cần tác giả rà soát] Trọn phần công dụng và hạn chế của quota sampling; chỉ thừa tiêu đề treo '9. Volunteer sampling.' ở cuối.
+openstax-pds-ch02,75,2104,A,openstax-pds-ch02:p75:fixed400-100:6,"exercise
+group or the control group. This method of random sampling ensures that the sample is representative of the
+larger population, providing a more accurate representation of the relationship between exercise and mental
 health outcomes for college students.
 Types of sampling error that could occur in this study include the following:
-1. Sampling bias. One potential source of bias in this study is self-selection bias. As the participants are all
-college students, they may not be representative of the larger population, as college students tend to
-have more access and motivation to exercise compared to the general population. This could limit the
-generalizability of the study's findings. ",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa từ ('ween exercise'), mục 1 Sampling bias bị cắt giữa."
-openstax-pds-ch02,75,2104,B,openstax-pds-ch02:p75:para1500:1,"Using student ID numbers generated by a
-computer program, 100 participants from the larger population were randomly selected to participate in the
-study to achieve the desired accuracy. This process ensured that every student in the university had an equal
-chance of being selected to participate. The participants were then randomly assigned to either the exercise
-group or the control group. This method of random sampling ensures that the sample is representative of the
+1. Sampling bias. One potential source of bias in this stud",1,"[AI đề xuất - cần tác giả rà soát] Bắt đầu giữa câu ('exercise group or the control group'), cắt giữa từ ('this stud')."
+openstax-pds-ch02,75,2104,B,openstax-pds-ch02:p75:para600:4,"This method of random sampling ensures that the sample is representative of the
 larger population, providing a more accurate representation of the relationship between exercise and mental
 health outcomes for college students.
 Types of sampling error that could occur in this study include the following:
 1. Sampling bias. One potential source of bias in this study is self-selection bias. As the participants are all
 college students, they may not be representative of the larger population, as college students tend to
-have more access and motivation to exercise compared to the general population. This could limit the
-generalizability of the study's findings. In addition, if the researchers only recruit participants from one
-university, there may be under-coverage bias. This means that certain groups of individuals, such as
-nonstudents or students from other universities, may be excluded from the study, potentially leading to
-biased results.
-2. Measurement error.",1,"[AI đề xuất - cần tác giả rà soát] Thiếu câu mở đầu case study ('Consider a research study...'), kết thúc bằng tiêu đề treo '2. Measurement error.'"
-openstax-pds-ch02,76,1676,A,openstax-pds-ch02:p76:fixed500-100:3," accurate
-representation of the entire population. This type of sampling is often used in market research studies to
-get a more comprehensive understanding of consumer behavior and preferences. By using stratified
-sampling, Mark can make more reliable conclusions and recommendations for the new product launch
-based on the data he collects.
-2.3 Web Scraping and Social Media Data Collection
-Learning Outcomes:
-By the end of this section, you should be able to:
-• 2.3.1 Discuss the uses of web scrapi",0,[AI đề xuất - cần tác giả rà soát] Hai mảnh không liên quan: đuôi Example 2.3 (thiếu đề bài) và tiêu đề/outcome 2.3 bị cắt ('web scrapi'); không tự hiểu được.
-openstax-pds-ch02,76,1676,B,openstax-pds-ch02:p76:para1500:1,"By using stratified
-sampling, Mark can make more reliable conclusions and recommendations for the new product launch
+have more access and motivation to exercise compared to the general population.",1,[AI đề xuất - cần tác giả rà soát] Trọn câu nhưng 'This method of random sampling' thiếu phần mô tả case study ở trước; mục 1 Sampling bias đầy đủ.
+openstax-pds-ch02,76,1676,A,openstax-pds-ch02:p76:fixed400-100:5,"uct launch
 based on the data he collects.
 2.3 Web Scraping and Social Media Data Collection
 Learning Outcomes:
@@ -233,12 +122,12 @@ By the end of this section, you should be able to:
 • 2.3.1 Discuss the uses of web scraping for collecting and preparing data for analysis.
 • 2.3.2 Apply regular expressions for data manipulation and pattern matching.
 • 2.3.3 Write Python code to scrape data from the web.
+• 2.3.4 Apply va",1,"[AI đề xuất - cần tác giả rà soát] Mảnh đuôi Example 2.3 ('uct launch...') ghép với tiêu đề/outcomes 2.3, cắt giữa từ ('Apply va')."
+openstax-pds-ch02,76,1676,B,openstax-pds-ch02:p76:para600:3,"2.3 Web Scraping and Social Media Data Collection
+Learning Outcomes:
+By the end of this section, you should be able to:
+• 2.3.1 Discuss the uses of web scraping for collecting and preparing data for analysis.
+• 2.3.2 Apply regular expressions for data manipulation and pattern matching.
+• 2.3.3 Write Python code to scrape data from the web.
 • 2.3.4 Apply various methods for parsing, extracting, processing, and storing data.
-Web scraping and social media data collection are two approaches used to gather data from the internet. Web
-scraping involves pulling information and data from websites using a web data extraction tool, often known
-as a web scraper. One example would be a travel company looking to gather information about hotel prices
-and availability from different booking websites. Web scraping can be used to automatically gather this data
-from the various websites and create a comprehensive list for the company to use in its business strategy
-without the need for manual work.
-Social media data collection involves gathering information from various platforms like Twitter and Instagram
-using application programming interface or monitoring tools.",1,[AI đề xuất - cần tác giả rà soát] Câu đầu là đuôi Example 2.3 (mục 2.2) lẫn vào; phần còn lại là trọn phần mở đầu 2.3.
+Web scraping and social media data collection are two approaches used to gather data from the internet.",2,"[AI đề xuất - cần tác giả rà soát] Trọn tiêu đề 2.3, learning outcomes và câu mở đầu; không lẫn nội dung 2.2."

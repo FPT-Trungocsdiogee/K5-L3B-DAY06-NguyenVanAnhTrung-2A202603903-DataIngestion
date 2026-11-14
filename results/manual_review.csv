@@ -1,233 +1,220 @@
 ﻿strategy,question_id,question,expected_answer,filter_applied,rank,chunk_id,score,source,page,metadata,text,auto_is_hit,metadata_correct_0_1,grounding_0_2,note
-A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:fixed500-100:8,0.6441,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3700, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3200, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Therefore, the results obtained from volunteer
-sampling may not be generalizable to the entire population.
+A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:fixed400-100:11,0.7265,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3700, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3300, ""chunk_index"": 11, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ation.
 Sampling Error
 Sampling error is the difference between the results obtained from a sample and the true value of the
 population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
 method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách giảm; truy được p74. | Metadata: source/page/section khớp nguồn.
-A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:fixed500-100:0,0.5717,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 500, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
-the target population and provide a clear and accessible way to identify and select individuals or units for
-inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly
-impact the accuracy and validity of research findings.
-Measurement Error
-Measurement errors are inaccuracies or discrepancies that surface during the process of collectin",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách giảm; truy được p74. | Metadata: source/page/section khớp nguồn.
-A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p74:fixed500-100:9,0.5202,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4100, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3600, ""chunk_index"": 9, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ease the accuracy of the results. To
+avoid sampling error, researchers can increase sample size, use",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách tránh; truy được p74. | Metadata: source/page/section khớp nguồn.
+A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:fixed400-100:13,0.5801,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4208, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3900, ""chunk_index"": 13, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","of sampling error in
+the random assignment process, meaning that the groups may not be perfectly balanced in terms of their
+exercise habits or other characteristics.
+These types of sampling errors can affect the accuracy and generalizability of the study's findings.
+2.2 • Survey Design and Implementation 65",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách tránh; truy được p74. | Metadata: source/page/section khớp nguồn.
+A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p74:fixed400-100:12,0.5261,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4000, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3600, ""chunk_index"": 12, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ease the accuracy of the results. To
 avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
 extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
 Sampling Bias
 Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where cert",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách giảm; truy được p74. | Metadata: source/page/section khớp nguồn.
-A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:fixed500-100:1,0.6932,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 900, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 400, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","or
+generalize to, leading to",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách tránh; truy được p74. | Metadata: source/page/section khớp nguồn.
+A,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,4,openstax-pds-ch02:p74:fixed400-100:10,0.5223,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3400, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3000, ""chunk_index"": 10, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}"," if the study is easily accessible to them.
+Volunteer sampling is not considered a random or representative sampling technique, as the participants
+may not accurately represent the larger population. Therefore, the results obtained from volunteer
+sampling may not be generalizable to the entire population.
+Sampling Error
+Sampling error is the difference between the results obtained from a sample an",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 bổ sung cách tránh; truy được p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:fixed400-100:1,0.6452,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 700, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 300, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","g process, and it can greatly
+impact the accuracy and validity of research findings.
+Measurement Error
 Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,
 recording, or analyzing data. They may occur due to human error, environmental factors, or inherent
+inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can aff",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error + nguyên nhân; r2 nối tiếp random/systematic error; p75. | Metadata: source/page/section khớp nguồn.
+A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:fixed400-100:2,0.5941,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1000, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 600, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","nt
 inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the
 precision of measurements, and systematic error may consistently bias measurements in a particular
-direction. In data analysis, addressing measurement error is crucial for ensuring the reliabi",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error, nguyên nhân; r2 nối tiếp cách giảm thiểu; p75. | Metadata: source/page/section khớp nguồn."
-A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:fixed500-100:2,0.5224,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1300, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 800, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","icular
 direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of
+results. Techniques for mitigating measurement error include improving data col",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error + nguyên nhân; r2 nối tiếp random/systematic error; p75. | Metadata: source/page/section khớp nguồn.
+A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p74:fixed400-100:11,0.4744,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3700, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3300, ""chunk_index"": 11, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ation.
+Sampling Error
+Sampling error is the difference between the results obtained from a sample and the true value of the
+population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
+method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
+avoid sampling error, researchers can increase sample size, use",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error + nguyên nhân; r2 nối tiếp random/systematic error; p75. | Metadata: source/page/section khớp nguồn.
+A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,4,openstax-pds-ch02:p75:fixed400-100:3,0.4566,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1300, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 900, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","lity and validity of
 results. Techniques for mitigating measurement error include improving data collection methods, calibrating
 instruments, conducting validation studies, and employing statistical methods like error modeling or
 sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis
 outcomes.
 A Sampling Case Study
-Consider a research study that wan",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error, nguyên nhân; r2 nối tiếp cách giảm thiểu; p75. | Metadata: source/page/section khớp nguồn."
-A,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p75:fixed500-100:7,0.5105,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3300, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2800, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","nt error. Measurement errors could occur, particularly if the researchers are measuring the
-participants' exercise and mental health outcomes through self-report measures. Participants may not
-accurately report their exercise habits or mental health symptoms, leading to inaccurate data.
-3. Non-response bias. Some participants in the study may choose not to participate or may drop out before
-the study is completed. This could introduce non-response bias, as those who choose not to participate or
-",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error, nguyên nhân; r2 nối tiếp cách giảm thiểu; p75. | Metadata: source/page/section khớp nguồn."
-A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:fixed500-100:4,0.565,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2100, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1600, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","n
-The first step in standardizing data is to establish guidelines and rules for formatting and structuring the
-data. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a
-guideline or set of rules used in database design to ensure that a database is well-structured, organized, and
-free from certain types of data irregularities, such as redundancy and inconsistency. The most commonly used
-normal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa normal form (NF) và ví dụ 1NF/2NF/3NF; p90. | Metadata: source/page/section khớp nguồn.
-A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:fixed500-100:5,0.5106,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2500, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2000, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","nconsistency. The most commonly used
-normal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal Form), and BCNF (Boyce-Codd Normal
+Consider a research study that wan",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa measurement error + nguyên nhân; r2 nối tiếp random/systematic error; p75. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:fixed400-100:1,0.5404,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 700, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 300, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}"," consistent and meets
+certain criteria or standards. Table 2.4 summarizes these processes, which are explored in more depth later in
+the chapter.
+Purpose Techniques Example
+Normalization To eliminate
+redundant data
+and ensure data
+dependencies
+make sense
+Involve breaking
+down a larger
+database into smaller,
+more manageable
+tables and
+establishing
+relationships
+between them.
+A customer database tab",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r3 có tên 'normal form (NF)' nhưng định nghĩa bị cắt ở 'well' (thiếu 'free from redundancy and inconsistency', là điều kiện câu hỏi nêu); r2 chỉ có đuôi danh sách '...BCNF'. Câu đầy đủ nằm ở r4 (ngoài top-3). | Metadata: source/page/section khớp nguồn."
+A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:fixed400-100:7,0.5168,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2500, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2100, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}"," Form), and BCNF (Boyce-Codd Normal
 Form).
 Normalization is the process of applying these rules to a database. The data must be organized and cleaned,
 which involves removing duplicates and erroneous data, filling in missing values, and logically arranging the
 data. To uphold data standardization, regular quality control measures should be implemented, including
-periodic data audits to ascertain t",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa normal form (NF) và ví dụ 1NF/2NF/3NF; p90. | Metadata: source/page/section khớp nguồn.
-A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p101:fixed500-100:0,0.45,Principles-of-Data-Science-WEB.pdf,101,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 500, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","DBMS Function Description Benefit
-Data organization Helps to manage data in a
-structured format
-Makes data more manageable for
-performing analysis and identifying patterns
-or relationships between different data
-points
-Data security Provides strong security
-measures to protect sensitive
-data from unauthorized access
-Protects sensitive data such as personal
-information or financial data from
-unauthorized access
-Data integration Permits the integration of data
-from multiple sources
-Makes it possib",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa normal form (NF) và ví dụ 1NF/2NF/3NF; p90. | Metadata: source/page/section khớp nguồn.
-A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:fixed500-100:8,0.6565,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3700, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3200, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Therefore, the results obtained from volunteer
+periodic data audits to ascertain t",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r3 có tên 'normal form (NF)' nhưng định nghĩa bị cắt ở 'well' (thiếu 'free from redundancy and inconsistency', là điều kiện câu hỏi nêu); r2 chỉ có đuôi danh sách '...BCNF'. Câu đầy đủ nằm ở r4 (ngoài top-3). | Metadata: source/page/section khớp nguồn."
+A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p90:fixed400-100:5,0.4938,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1900, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1500, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","e 2.4 Comparison of Data Standardization, Transformation, and Validation Processes
+Data Normalization
+The first step in standardizing data is to establish guidelines and rules for formatting and structuring the
+data. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a
+guideline or set of rules used in database design to ensure that a database is well",True,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r3 có tên 'normal form (NF)' nhưng định nghĩa bị cắt ở 'well' (thiếu 'free from redundancy and inconsistency', là điều kiện câu hỏi nêu); r2 chỉ có đuôi danh sách '...BCNF'. Câu đầy đủ nằm ở r4 (ngoài top-3). | Metadata: source/page/section khớp nguồn."
+A,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,4,openstax-pds-ch02:p90:fixed400-100:6,0.4832,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2200, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1800, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","l form (NF) is a
+guideline or set of rules used in database design to ensure that a database is well-structured, organized, and
+free from certain types of data irregularities, such as redundancy and inconsistency. The most commonly used
+normal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal Form), and BCNF (Boyce-Codd Normal
+Form).
+Normalization is the process of applying these rules to a",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r3 có tên 'normal form (NF)' nhưng định nghĩa bị cắt ở 'well' (thiếu 'free from redundancy and inconsistency', là điều kiện câu hỏi nêu); r2 chỉ có đuôi danh sách '...BCNF'. Câu đầy đủ nằm ở r4 (ngoài top-3). Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:fixed400-100:10,0.6553,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3400, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3000, ""chunk_index"": 10, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}"," if the study is easily accessible to them.
+Volunteer sampling is not considered a random or representative sampling technique, as the participants
+may not accurately represent the larger population. Therefore, the results obtained from volunteer
 sampling may not be generalizable to the entire population.
 Sampling Error
-Sampling error is the difference between the results obtained from a sample and the true value of the
-population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có kết luận 'may not be generalizable'; r2 có lý do (không random/representative); p74. | Metadata: source/page/section khớp nguồn.
-A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:fixed500-100:7,0.6192,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3300, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2800, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ic population, such as a specific
+Sampling error is the difference between the results obtained from a sample an",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do (không random/representative) và kết luận 'may not be generalizable'; p74. | Metadata: source/page/section khớp nguồn.
+A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:fixed400-100:9,0.6112,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3100, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2700, ""chunk_index"": 9, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This type of sampling is
+commonly used in studies that involve recruiting participants from a specific population, such as a specific
 community or organization. It is also often used in studies where convenience and accessibility are
 important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
-may not accurately represent the larger population. Therefore, the results obtained from volunteer
-sampling may not be generalizable to the entire popul",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có kết luận 'may not be generalizable'; r2 có lý do (không random/representative); p74. | Metadata: source/page/section khớp nguồn.
-A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:fixed500-100:6,0.5873,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2900, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2400, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","n
-characteristics. Therefore, the findings from studies using quota sampling should be interpreted with
-caution.
-9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random
-by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
-commonly used in studies that involve recruiting participants from a specific population, such as a specific
-community or organization. It is also often used in studies where ",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có kết luận 'may not be generalizable'; r2 có lý do (không random/representative); p74. | Metadata: source/page/section khớp nguồn.
-A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,1,openstax-pds-ch02:p99:fixed500-100:7,0.6702,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3285, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2800, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","shes indexing involves using a hash function to map data to a specific index in a table. This allows for direct
+Volunteer sampling is not considered a random or represe",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do (không random/representative) và kết luận 'may not be generalizable'; p74. | Metadata: source/page/section khớp nguồn.
+A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:fixed400-100:13,0.585,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4300, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3900, ""chunk_index"": 13, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","ample used in a study isn’t representative of the population it intends to
+generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
+bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
+specific subset of the population participates. Researchers use the sampling techniques summarized earlier to
+a",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do (không random/representative) và kết luận 'may not be generalizable'; p74. | Metadata: source/page/section khớp nguồn.
+A,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,4,openstax-pds-ch02:p75:fixed400-100:8,0.5766,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2800, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2400, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}"," compared to the general population. This could limit the
+generalizability of the study's findings. In addition, if the researchers only recruit participants from one
+university, there may be under-coverage bias. This means that certain groups of individuals, such as
+nonstudents or students from other universities, may be excluded from the study, potentially leading to
+biased results.
+2. Measureme",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do (không random/representative) và kết luận 'may not be generalizable'; p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,1,openstax-pds-ch02:p99:fixed400-100:9,0.6129,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3100, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2700, ""chunk_index"": 9, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}"," and
+pointers to child nodes, allowing for efficient searching within a specific range of values.
+Hashes indexing involves using a hash function to map data to a specific index in a table. This allows for direct
 access to the data based on its hashed value, making retrieval faster than traditional sequential searching.
+Bitmap indexing is a technique that involves creating a bitmap for each differe",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu 'Hashes indexing ... hash function ... index in a table ... direct access'; p99. | Metadata: source/page/section khớp nguồn.
+A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,2,openstax-pds-ch02:p99:fixed400-100:10,0.5606,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3285, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3000, ""chunk_index"": 10, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","equential searching.
 Bitmap indexing is a technique that involves creating a bitmap for each different value in a dataset. The
 bitmaps are then combined to quickly identify records that match a specific set of values, allowing efficient
 data retrieval.
-2.5 • Handling Large Datasets 89",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có cơ chế hash -> direct access nhưng tên bị cắt ('shes indexing'); r3 có tên đầy đủ 'Hashes indexing'. Gộp top-3 đủ; p99. | Metadata: source/page/section khớp nguồn.
-A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,2,openstax-pds-ch02:p99:fixed500-100:5,0.5549,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2500, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2000, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","d makes it easier to retrieve specific data quickly
-and efficiently. It is a crucial strategy for optimizing the performance of databases and other data storage
+2.5 • Handling Large Datasets 89",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu 'Hashes indexing ... hash function ... index in a table ... direct access'; p99. | Metadata: source/page/section khớp nguồn.
+A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,3,openstax-pds-ch02:p99:fixed400-100:7,0.5092,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2500, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2100, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","timizing the performance of databases and other data storage
 systems. Data indexing refers to the process of managing and saving the collected and generated data in a
 database or other data storage system in a way that allows for efficient and fast return of specific data.
 Indexing techniques vary in how they organize and store data, but they all aim to improve data retrieval
-performance. B-tree i",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có cơ chế hash -> direct access nhưng tên bị cắt ('shes indexing'); r3 có tên đầy đủ 'Hashes indexing'. Gộp top-3 đủ; p99. | Metadata: source/page/section khớp nguồn.
-A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,3,openstax-pds-ch02:p99:fixed500-100:6,0.5424,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2900, ""chunking"": ""fixed500-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2400, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","n how they organize and store data, but they all aim to improve data retrieval
+performance. B-tree i",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu 'Hashes indexing ... hash function ... index in a table ... direct access'; p99. | Metadata: source/page/section khớp nguồn.
+A,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,4,openstax-pds-ch02:p99:fixed400-100:8,0.4934,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2800, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2400, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","n how they organize and store data, but they all aim to improve data retrieval
 performance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with
 a root node and branches that contain pointers to other nodes. Each node contains a range of data values and
 pointers to child nodes, allowing for efficient searching within a specific range of values.
-Hashes indexing involves using a hash function to map data to a specific index in a table. This allows",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 có cơ chế hash -> direct access nhưng tên bị cắt ('shes indexing'); r3 có tên đầy đủ 'Hashes indexing'. Gộp top-3 đủ; p99. | Metadata: source/page/section khớp nguồn.
-B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:para1500:2,0.5894,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
+Ha",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu 'Hashes indexing ... hash function ... index in a table ... direct access'; p99. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+A,t06,How many common text-processing mentioned in the table?,10,null,1,openstax-pds-ch02:p95:fixed400-100:1,0.5208,Principles-of-Data-Science-WEB.pdf,95,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 700, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 300, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","ithms and models. Some common techniques used in text preprocessing are reviewed in
+Table 2.8.
+Preprocessing
+Technique
+Explanation Example
+Tokenization Breaking text
+data into
+individual
+words or
+phrases
+(tokens)
+Original Text: “Tokenization is the process of breaking down
+a sentence, paragraph, or entire text into smaller parts
+called tokens.”
+Tokenized Text: “Tokenization”, “is”, “the”, “process",True,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1/r3 chỉ có câu dẫn tới Table 2.8 và dòng Tokenization; r2 là chú thích bảng p96. Bảng 10 kỹ thuật trải trên p95-97 nên top-3 không đủ để đếm ra 10. Hit tự động đúng chỉ vì evidence_quote là câu dẫn. | Metadata: source/page/section khớp nguồn.
+A,t06,How many common text-processing mentioned in the table?,10,null,2,openstax-pds-ch02:p96:fixed400-100:6,0.5095,Principles-of-Data-Science-WEB.pdf,96,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1939, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1800, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","mine the
+sentiment.
+Table 2.8 Summary of Text Preprocessing Techniques
+86 2 • Collecting and Preparing Data
+Access for free at openstax.org",False,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1/r3 chỉ có câu dẫn tới Table 2.8 và dòng Tokenization; r2 là chú thích bảng p96. Bảng 10 kỹ thuật trải trên p95-97 nên top-3 không đủ để đếm ra 10. Hit tự động đúng chỉ vì evidence_quote là câu dẫn. | Metadata: source/page/section khớp nguồn.
+A,t06,How many common text-processing mentioned in the table?,10,null,3,openstax-pds-ch02:p95:fixed400-100:0,0.4863,Principles-of-Data-Science-WEB.pdf,95,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 400, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","aggregation to study energy consumption patterns.
+Text Preprocessing
+Text preprocessing is a technique of preparing data in text format for further analysis and natural language
+processing tasks. It involves transforming unstructured text data into a more structured format to be
+interpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in
+Table 2.8.
+Prepr",True,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1/r3 chỉ có câu dẫn tới Table 2.8 và dòng Tokenization; r2 là chú thích bảng p96. Bảng 10 kỹ thuật trải trên p95-97 nên top-3 không đủ để đếm ra 10. Hit tự động đúng chỉ vì evidence_quote là câu dẫn. | Metadata: source/page/section khớp nguồn.
+A,t06,How many common text-processing mentioned in the table?,10,null,4,openstax-pds-ch02:p97:fixed400-100:10,0.4838,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 3158, ""chunking"": ""fixed400-100"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3000, ""chunk_index"": 10, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","zing text
+data helps to reduce the number of variations and therefore improves the efficiency and accuracy of natural
+2.4 • Data Cleaning and Preprocessing 87",False,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1/r3 chỉ có câu dẫn tới Table 2.8 và dòng Tokenization; r2 là chú thích bảng p96. Bảng 10 kỹ thuật trải trên p95-97 nên top-3 không đủ để đếm ra 10. Hit tự động đúng chỉ vì evidence_quote là câu dẫn. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:para600:7,0.6176,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3633, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3044, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling is not considered a random or representative sampling technique, as the participants
 may not accurately represent the larger population. Therefore, the results obtained from volunteer
 sampling may not be generalizable to the entire population.
 Sampling Error
 Sampling error is the difference between the results obtained from a sample and the true value of the
 population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: source/page/section khớp nguồn."
-B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:para1500:0,0.5392,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
+method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn.
+B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:para600:0,0.5962,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 532, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
 the target population and provide a clear and accessible way to identify and select individuals or units for
 inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly
 impact the accuracy and validity of research findings.
 Measurement Error
 Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,
-recording, or analyzing data. They may occur due to human error, environmental factors, or inherent
+recording, or analyzing data.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn.
+B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p74:para600:8,0.5465,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4034, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3634, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","To
+avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
+extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
+Sampling Bias
+Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
+generalize to, leading to skewed or inaccurate conclusions.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn.
+B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,4,openstax-pds-ch02:p75:para600:8,0.5387,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4208, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 4066, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","These types of sampling errors can affect the accuracy and generalizability of the study's findings.
+2.2 • Survey Design and Implementation 65",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:para600:1,0.6232,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 929, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 533, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","They may occur due to human error, environmental factors, or inherent
 inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the
 precision of measurements, and systematic error may consistently bias measurements in a particular
 direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of
-results. Techniques for mitigating measurement error include improving data collection methods, calibrating
-instruments, conducting validation studies, and employing statistical methods like error modeling or
-sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis
-outcomes.
-A Sampling Case Study
-Consider a research study that wants to randomly select a group of college students from a larger population
-to examine the effects of exercise on their mental health outcomes.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: source/page/section khớp nguồn."
-B,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p76:para1500:0,0.4612,Principles-of-Data-Science-WEB.pdf,76,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.3"", ""char_end"": 1393, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Web Scraping and Social Media Data Collection""}","Researchers need to be aware of these potential errors and take steps to minimize them when designing
-and conducting their studies.
-EXAMPLE 2.3
-Problem
-Mark is a data scientist who works for a marketing research company. He has been tasked to lead a study to
-understand consumer behavior toward a new product that is about to be launched in the market. As data
-scientists, they know the importance of using the right sampling technique to collect accurate and reliable
-data. Mark divided the population into different groups based on factors such as age, education, and
-income. This ensures that he gets a representative sample from each group, providing a more accurate
-understanding of consumer behavior. What is the name of the sampling technique used by Mark to ensure
-a representative sample from different groups of consumers for his study on consumer behavior toward a
-new product?
-Solution
-The sampling technique used by Mark is called stratified sampling. This involves dividing the population
-into subgroups or strata based on certain characteristics and then randomly selecting participants from
-each subgroup. This ensures that each subgroup is represented in the sample, providing a more accurate
-representation of the entire population. This type of sampling is often used in market research studies to
-get a more comprehensive understanding of consumer behavior and preferences.",False,0,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: Metadata SAI: chunk p76 gắn section=2.3 nhưng nội dung là phần cuối mục 2.2 (Example 2.3 thuộc 2.2). Do metadata gắn theo trang. source/page đúng."
-B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:para1500:0,0.4574,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
+results.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn.
+B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:para600:0,0.5666,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 532, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
 the target population and provide a clear and accessible way to identify and select individuals or units for
 inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly
 impact the accuracy and validity of research findings.
 Measurement Error
 Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,
-recording, or analyzing data. They may occur due to human error, environmental factors, or inherent
-inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the
-precision of measurements, and systematic error may consistently bias measurements in a particular
-direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of
-results. Techniques for mitigating measurement error include improving data collection methods, calibrating
+recording, or analyzing data.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn.
+B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p75:para600:2,0.4822,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 930, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Techniques for mitigating measurement error include improving data collection methods, calibrating
 instruments, conducting validation studies, and employing statistical methods like error modeling or
 sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis
 outcomes.
 A Sampling Case Study
 Consider a research study that wants to randomly select a group of college students from a larger population
-to examine the effects of exercise on their mental health outcomes.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:para1500:2,0.4056,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4208, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2810, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Measurement errors could occur, particularly if the researchers are measuring the
-participants' exercise and mental health outcomes through self-report measures. Participants may not
-accurately report their exercise habits or mental health symptoms, leading to inaccurate data.
-3. Non-response bias. Some participants in the study may choose not to participate or may drop out before
-the study is completed. This could introduce non-response bias, as those who choose not to participate or
-drop out may differ from those who remain in the study in terms of their exercise habits or mental health
-outcomes.
-4. Sampling variability. The sample of 100 participants is a relatively small subset of the larger population.
-As a result, there may be sampling variability, meaning that the characteristics and outcomes of the
-participants may differ from those of the larger population simply due to chance.
-5. Sampling error in random assignment. In this study, the researchers randomly assign participants to
-either the exercise group or the control group. However, there is always a possibility of sampling error in
-the random assignment process, meaning that the groups may not be perfectly balanced in terms of their
-exercise habits or other characteristics.
-These types of sampling errors can affect the accuracy and generalizability of the study's findings.
-2.2 • Survey Design and Implementation 65",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p74:para1500:2,0.3884,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
-may not accurately represent the larger population. Therefore, the results obtained from volunteer
-sampling may not be generalizable to the entire population.
-Sampling Error
-Sampling error is the difference between the results obtained from a sample and the true value of the
-population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:para1500:1,0.4873,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2991, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1496, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Table 2.4 Comparison of Data Standardization, Transformation, and Validation Processes
+to examine the effects of exercise on their mental health outcomes.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn.
+B,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,4,openstax-pds-ch02:p75:para600:5,0.4297,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2971, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2437, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This could limit the
+generalizability of the study's findings. In addition, if the researchers only recruit participants from one
+university, there may be under-coverage bias. This means that certain groups of individuals, such as
+nonstudents or students from other universities, may be excluded from the study, potentially leading to
+biased results.
+2. Measurement error. Measurement errors could occur, particularly if the researchers are measuring the
+participants' exercise and mental health outcomes through self-report measures.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:para600:3,0.5046,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2013, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1496, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Table 2.4 Comparison of Data Standardization, Transformation, and Validation Processes
 Data Normalization
 The first step in standardizing data is to establish guidelines and rules for formatting and structuring the
 data. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a
 guideline or set of rules used in database design to ensure that a database is well-structured, organized, and
-free from certain types of data irregularities, such as redundancy and inconsistency. The most commonly used
+free from certain types of data irregularities, such as redundancy and inconsistency.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn.
+B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:para600:4,0.4997,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2540, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2014, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","The most commonly used
 normal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal Form), and BCNF (Boyce-Codd Normal
 Form).
 Normalization is the process of applying these rules to a database. The data must be organized and cleaned,
 which involves removing duplicates and erroneous data, filling in missing values, and logically arranging the
 data. To uphold data standardization, regular quality control measures should be implemented, including
-periodic data audits to ascertain the accuracy and consistency of the data. It is also important to document the
-standardization process, including the guidelines and procedures followed. Periodic review and updates of
-data standards are necessary to ensure the ongoing reliability and relevance of the data.
-Data normalization ensures that data is maintainable regardless of its source. Consider a marketing team
-collecting data on their customers’ purchasing behavior so they can make some decisions about product
-placement.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn.
-B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:para1500:0,0.4479,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1495, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","duplicates as well as converting data from various sources into a unified format, often termed a normal form
-(defined in the next section). Data transformation involves modifying the data to make it more suitable for
-the analysis that is planned. Data validation ensures that the data is accurate and consistent and meets
-certain criteria or standards. Table 2.4 summarizes these processes, which are explored in more depth later in
-the chapter.
-Purpose Techniques Example
+periodic data audits to ascertain the accuracy and consistency of the data.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn.
+B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p90:para600:1,0.4619,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1036, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 446, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Purpose Techniques Example
 Normalization To eliminate
 redundant data
 and ensure data
@@ -258,253 +245,159 @@ cleaning, data
 merging, data
 splitting, data
 conversion, and data
-aggregation.
-A dataset with different date
-formats, such as “MM/DD/YYYY”
-and “YYYY/MM/DD.” Data
-transformation can be used to
-convert all dates to a single
-format
-Validation To improve the
-quality of data
-used in analysis. It
-ensures that the
-data is accurate,
-relevant, and
-consistent.
-Include data
-profiling, data audits,
-and data cleansing.
-In a survey, the respondent’s age
-is recorded as 150 years.
-Through data validation, this
-value can be identified as
-erroneous.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn.
-B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p101:para1500:0,0.4016,Principles-of-Data-Science-WEB.pdf,101,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 1393, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","DBMS Function Description Benefit
-Data organization Helps to manage data in a
-structured format
-Makes data more manageable for
-performing analysis and identifying patterns
-or relationships between different data
-points
-Data security Provides strong security
-measures to protect sensitive
-data from unauthorized access
-Protects sensitive data such as personal
-information or financial data from
-unauthorized access
-Data integration Permits the integration of data
-from multiple sources
-Makes it possible to combine and analyze
-data from different datasets
-Table 2.9 Functions of Database Management Systems (DBMS)
-Implementation of database management techniques has become important for hospitals in achieving better
-patient outcomes and reducing costs. This strategy involves the collection and analysis of patient data from
-different sources, including electronic health records, medical imaging, and lab results. For example, hospitals
-are utilizing this approach to improve treatment for patients with chronic conditions such as diabetes and
-heart disease. By leveraging data-driven insights and identifying patterns, health care experts can develop
-personalized remedy plans for each patient, guiding them to enhanced health and wellness as well as cost
-savings for the hospital. This showcases the significance of incorporating advanced data management
-techniques in health care systems.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn.
-B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:para1500:2,0.6247,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
+aggregation.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn.
+B,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,4,openstax-pds-ch02:p94:para600:1,0.4558,Principles-of-Data-Science-WEB.pdf,94,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1074, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 486, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","For example, a company may set up a data validation
+process to ensure that all customer information entered into its database follows a specific format. This would
+involve checking for correct spellings and proper formatting of phone numbers and addresses and validating
+the correctness of customer names and account numbers. The data would also be checked against external
+sources, such as official government records, to verify the accuracy of the information. Any discrepancies or
+errors would be flagged for correction before the data is used for analysis or decision-making purposes.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:para600:6,0.6144,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3043, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2536, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling refers to the fact that the participants are not picked at random
+by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
+commonly used in studies that involve recruiting participants from a specific population, such as a specific
+community or organization. It is also often used in studies where convenience and accessibility are
+important factors, as participants may be more likely to volunteer if the study is easily accessible to them.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
+B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:para600:7,0.6089,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3633, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3044, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling is not considered a random or representative sampling technique, as the participants
 may not accurately represent the larger population. Therefore, the results obtained from volunteer
 sampling may not be generalizable to the entire population.
 Sampling Error
 Sampling error is the difference between the results obtained from a sample and the true value of the
 population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
-B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:para1500:1,0.5863,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2860, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1428, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This type of sampling can be useful in
-studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of
-findings.
-8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select
-participants based on predetermined quotas to guarantee that a certain number or percentage of the
-population of interest is represented in the sample. These quotas are based on specific demographic
-characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or
-indirect relationship with the research topic. Quota sampling is generally used in market research and
+method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
+B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:para600:5,0.5358,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2535, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2040, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Quota sampling is generally used in market research and
 opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of
 individuals. However, it is important to note that the results of quota sampling may not accurately
 represent the entire population, as the sample is not randomly selected and may be biased toward certain
 characteristics. Therefore, the findings from studies using quota sampling should be interpreted with
 caution.
-9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random
-by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
-commonly used in studies that involve recruiting participants from a specific population, such as a specific
-community or organization.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
-B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:para1500:3,0.4909,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4474, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 4237, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Researchers use the sampling techniques summarized earlier to
-avoid sampling bias and ensure that each member of the population has an equal chance of being included in
-64 2 • Collecting and Preparing Data
-Access for free at openstax.org",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
-B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,1,openstax-pds-ch02:p99:para1500:2,0.6259,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3285, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2889, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","This allows for direct
+9. Volunteer sampling.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn.
+B,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,4,openstax-pds-ch02:p73:para600:6,0.4984,Principles-of-Data-Science-WEB.pdf,73,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3735, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3135, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This process is
+straightforward to implement, and it provides a representative sample when the population is randomly
+distributed. However, if there is a pattern in the sampling frame (the organizing structure that represents
+the population from which a sample is drawn), it may lead to a biased sample.
+Suppose a researcher wants to study the dietary habits of students in a high school. The researcher has a
+list of all the students enrolled in the school, which is approximately 1,000 students. Instead of randomly
+selecting a sample of students, the researcher decides to use systematic sampling.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,1,openstax-pds-ch02:p99:para600:5,0.5954,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3252, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2659, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Each node contains a range of data values and
+pointers to child nodes, allowing for efficient searching within a specific range of values.
+Hashes indexing involves using a hash function to map data to a specific index in a table. This allows for direct
 access to the data based on its hashed value, making retrieval faster than traditional sequential searching.
 Bitmap indexing is a technique that involves creating a bitmap for each different value in a dataset. The
 bitmaps are then combined to quickly identify records that match a specific set of values, allowing efficient
-data retrieval.
-2.5 • Handling Large Datasets 89",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
-B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,2,openstax-pds-ch02:p99:para1500:1,0.5369,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2888, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1479, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","It is commonly used for business intelligence and
-reporting intentions.
-4. Cloud storage. Cloud storage involves storing data in remote servers accessed over the internet. It offers
+data retrieval.",True,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn.
+B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,2,openstax-pds-ch02:p99:para600:4,0.5417,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2658, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2170, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Data indexing refers to the process of managing and saving the collected and generated data in a
+database or other data storage system in a way that allows for efficient and fast return of specific data.
+Indexing techniques vary in how they organize and store data, but they all aim to improve data retrieval
+performance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with
+a root node and branches that contain pointers to other nodes.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn.
+B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,3,openstax-pds-ch02:p99:para600:3,0.4488,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2169, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1651, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","It offers
 scalability, cost-effectiveness, and remote accessibility.
 5. Object storage. With object storage, data are stored as objects that consist of both data and metadata.
 This method is often used for storing large volumes of unstructured data, such as images and videos.
 Data Indexing
 Data indexing is an important aspect of data management and makes it easier to retrieve specific data quickly
 and efficiently. It is a crucial strategy for optimizing the performance of databases and other data storage
-systems. Data indexing refers to the process of managing and saving the collected and generated data in a
-database or other data storage system in a way that allows for efficient and fast return of specific data.
-Indexing techniques vary in how they organize and store data, but they all aim to improve data retrieval
-performance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with
-a root node and branches that contain pointers to other nodes. Each node contains a range of data values and
-pointers to child nodes, allowing for efficient searching within a specific range of values.
-Hashes indexing involves using a hash function to map data to a specific index in a table.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
-B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,3,openstax-pds-ch02:p100:para1500:0,0.461,Principles-of-Data-Science-WEB.pdf,100,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 1438, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Figure 2.5 B-Tree Indexing
+systems.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn.
+B,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.",null,4,openstax-pds-ch02:p100:para600:0,0.4408,Principles-of-Data-Science-WEB.pdf,100,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 501, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Figure 2.5 B-Tree Indexing
 Data Chunking
 Data chunking, also known as data segmentation or data partitioning, is a technique used to break down
 large datasets into smaller, more manageable chunks and make them easier to manage, process, analyze, and
 store. Chunking is particularly useful when datasets are too large to be processed or analyzed as a single unit.
 By dividing the data into smaller chunks, various processing tasks can be distributed across multiple
-computing nodes or processing units.
-Data chunking is used in data storage systems and data transmission over networks, and it is especially useful
-when working with large datasets that exceed the capacity of a single machine or when transferring data over
-a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of
-each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes.
-These chunks are typically organized sequentially, with each chunk containing a set of data from the larger
-dataset. The process of data chunking also involves adding metadata (data that provides information about
-other data), such as the chunk number and the total number of chunks, to each chunk. This metadata allows
-the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data
-chunking has several advantages, including the following:
-1. Increased speed.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
-C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:para1500:2,0.5894,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
+computing nodes or processing units.",False,1,2,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chứa trọn câu Hashes indexing + direct access; p99. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn.
+B,t06,How many common text-processing mentioned in the table?,10,null,1,openstax-pds-ch02:p95:para600:0,0.4829,Principles-of-Data-Science-WEB.pdf,95,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 394, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","aggregation to study energy consumption patterns.
+Text Preprocessing
+Text preprocessing is a technique of preparing data in text format for further analysis and natural language
+processing tasks. It involves transforming unstructured text data into a more structured format to be
+interpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in
+Table 2.8.",True,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn.
+B,t06,How many common text-processing mentioned in the table?,10,null,2,openstax-pds-ch02:p97:para600:4,0.4742,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2265, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1717, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Removing special
+characters and
+punctuation
+Simplifying the
+text for analysis
+Consider the input: “Hello, this is a text with @special#
+characters!*” and the output: “Hello this is a text with special
+characters”
+Table 2.8 Summary of Text Preprocessing Techniques
+Text preprocessing is crucial to effectively use text data for tasks such as text classification and information
+extraction. By transforming the raw text data, the accuracy and performance of machine learning models can
+greatly improve and provide meaningful insights and predictions.",False,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn.
+B,t06,How many common text-processing mentioned in the table?,10,null,3,openstax-pds-ch02:p97:para600:6,0.4564,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 3158, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2824, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","This can include tasks such as removing accents and diacritics, expanding
+contractions, and converting numbers into their written representations (e.g., “10” to “ten”). Normalizing text
+data helps to reduce the number of variations and therefore improves the efficiency and accuracy of natural
+2.4 • Data Cleaning and Preprocessing 87",False,1,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn.
+B,t06,How many common text-processing mentioned in the table?,10,null,4,openstax-pds-ch02:p98:para600:0,0.446,Principles-of-Data-Science-WEB.pdf,98,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 585, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","language processing tasks. It also makes the data more easily interpretable for machine learning algorithms.
+For example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of
+the same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of
+sentiment toward a product or service.
+2.5 Handling Large Datasets
+Learning Outcomes
+By the end of this section, you should be able to:
+• 2.5.1 Recognize the challenges associated with large data, including storage, processing, and
+analysis limitations.",False,0,1,[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: Metadata SAI: chunk p98 gắn section=2.5 nhưng phần nội dung chính là đoạn chuẩn hóa text nối tiếp từ p97 (mục 2.4); chỉ phần sau là tiêu đề 2.5. Do section gán theo trang.
+C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,1,openstax-pds-ch02:p74:para600:7,0.6176,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3633, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3044, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling is not considered a random or representative sampling technique, as the participants
 may not accurately represent the larger population. Therefore, the results obtained from volunteer
 sampling may not be generalizable to the entire population.
 Sampling Error
 Sampling error is the difference between the results obtained from a sample and the true value of the
 population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: source/page/section khớp nguồn."
-C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:para1500:0,0.5392,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
+method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn."
+C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,2,openstax-pds-ch02:p75:para600:0,0.5962,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 532, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
 the target population and provide a clear and accessible way to identify and select individuals or units for
 inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly
 impact the accuracy and validity of research findings.
 Measurement Error
 Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,
-recording, or analyzing data. They may occur due to human error, environmental factors, or inherent
+recording, or analyzing data.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn."
+C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p74:para600:8,0.5465,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4034, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3634, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","To
+avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
+extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
+Sampling Bias
+Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
+generalize to, leading to skewed or inaccurate conclusions.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. | Metadata: source/page/section khớp nguồn."
+C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,4,openstax-pds-ch02:p75:para600:8,0.5387,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4208, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 4066, ""chunk_index"": 8, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","These types of sampling errors can affect the accuracy and generalizability of the study's findings.
+2.2 • Survey Design and Implementation 65",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa sampling error + nguyên nhân; r3 có cách tránh; p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:para600:1,0.6232,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 929, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 533, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","They may occur due to human error, environmental factors, or inherent
 inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the
 precision of measurements, and systematic error may consistently bias measurements in a particular
 direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of
-results. Techniques for mitigating measurement error include improving data collection methods, calibrating
-instruments, conducting validation studies, and employing statistical methods like error modeling or
-sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis
-outcomes.
-A Sampling Case Study
-Consider a research study that wants to randomly select a group of college students from a larger population
-to examine the effects of exercise on their mental health outcomes.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: source/page/section khớp nguồn."
-C,t01,What is Sampling Error?,Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.,null,3,openstax-pds-ch02:p76:para1500:0,0.4612,Principles-of-Data-Science-WEB.pdf,76,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.3"", ""char_end"": 1393, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Web Scraping and Social Media Data Collection""}","Researchers need to be aware of these potential errors and take steps to minimize them when designing
-and conducting their studies.
-EXAMPLE 2.3
-Problem
-Mark is a data scientist who works for a marketing research company. He has been tasked to lead a study to
-understand consumer behavior toward a new product that is about to be launched in the market. As data
-scientists, they know the importance of using the right sampling technique to collect accurate and reliable
-data. Mark divided the population into different groups based on factors such as age, education, and
-income. This ensures that he gets a representative sample from each group, providing a more accurate
-understanding of consumer behavior. What is the name of the sampling technique used by Mark to ensure
-a representative sample from different groups of consumers for his study on consumer behavior toward a
-new product?
-Solution
-The sampling technique used by Mark is called stratified sampling. This involves dividing the population
-into subgroups or strata based on certain characteristics and then randomly selecting participants from
-each subgroup. This ensures that each subgroup is represented in the sample, providing a more accurate
-representation of the entire population. This type of sampling is often used in market research studies to
-get a more comprehensive understanding of consumer behavior and preferences.",False,0,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, nguyên nhân và cách tránh sampling error; p74. | Metadata: Metadata SAI: chunk p76 gắn section=2.3 nhưng nội dung là phần cuối mục 2.2 (Example 2.3 thuộc 2.2). Do metadata gắn theo trang. source/page đúng."
-C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,1,openstax-pds-ch02:p75:para1500:0,0.4574,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
+results.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn."
+C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:para600:0,0.5666,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 532, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of
 the target population and provide a clear and accessible way to identify and select individuals or units for
 inclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly
 impact the accuracy and validity of research findings.
 Measurement Error
 Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,
-recording, or analyzing data. They may occur due to human error, environmental factors, or inherent
-inconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the
-precision of measurements, and systematic error may consistently bias measurements in a particular
-direction. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of
-results. Techniques for mitigating measurement error include improving data collection methods, calibrating
+recording, or analyzing data.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn."
+C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p75:para600:2,0.4822,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 1442, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 930, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Techniques for mitigating measurement error include improving data collection methods, calibrating
 instruments, conducting validation studies, and employing statistical methods like error modeling or
 sensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis
 outcomes.
 A Sampling Case Study
 Consider a research study that wants to randomly select a group of college students from a larger population
-to examine the effects of exercise on their mental health outcomes.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,2,openstax-pds-ch02:p75:para1500:2,0.4056,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4208, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2810, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Measurement errors could occur, particularly if the researchers are measuring the
-participants' exercise and mental health outcomes through self-report measures. Participants may not
-accurately report their exercise habits or mental health symptoms, leading to inaccurate data.
-3. Non-response bias. Some participants in the study may choose not to participate or may drop out before
-the study is completed. This could introduce non-response bias, as those who choose not to participate or
-drop out may differ from those who remain in the study in terms of their exercise habits or mental health
-outcomes.
-4. Sampling variability. The sample of 100 participants is a relatively small subset of the larger population.
-As a result, there may be sampling variability, meaning that the characteristics and outcomes of the
-participants may differ from those of the larger population simply due to chance.
-5. Sampling error in random assignment. In this study, the researchers randomly assign participants to
-either the exercise group or the control group. However, there is always a possibility of sampling error in
-the random assignment process, meaning that the groups may not be perfectly balanced in terms of their
-exercise habits or other characteristics.
-These types of sampling errors can affect the accuracy and generalizability of the study's findings.
-2.2 • Survey Design and Implementation 65",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,3,openstax-pds-ch02:p74:para1500:2,0.3884,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
-may not accurately represent the larger population. Therefore, the results obtained from volunteer
-sampling may not be generalizable to the entire population.
-Sampling Error
-Sampling error is the difference between the results obtained from a sample and the true value of the
-population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa trọn định nghĩa, loại lỗi và cách giảm measurement error; p75. | Metadata: source/page/section khớp nguồn."
-C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:para1500:1,0.4873,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2991, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1496, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Table 2.4 Comparison of Data Standardization, Transformation, and Validation Processes
+to examine the effects of exercise on their mental health outcomes.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. | Metadata: source/page/section khớp nguồn."
+C,t02,What is Measurement Error?,Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.,null,4,openstax-pds-ch02:p75:para600:5,0.4297,Principles-of-Data-Science-WEB.pdf,75,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2971, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2437, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This could limit the
+generalizability of the study's findings. In addition, if the researchers only recruit participants from one
+university, there may be under-coverage bias. This means that certain groups of individuals, such as
+nonstudents or students from other universities, may be excluded from the study, potentially leading to
+biased results.
+2. Measurement error. Measurement errors could occur, particularly if the researchers are measuring the
+participants' exercise and mental health outcomes through self-report measures.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa trọn định nghĩa measurement error; r1 có nguyên nhân và random/systematic error; r3 có cách giảm; p75. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,1,openstax-pds-ch02:p90:para600:3,0.5046,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2013, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1496, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Table 2.4 Comparison of Data Standardization, Transformation, and Validation Processes
 Data Normalization
 The first step in standardizing data is to establish guidelines and rules for formatting and structuring the
 data. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a
 guideline or set of rules used in database design to ensure that a database is well-structured, organized, and
-free from certain types of data irregularities, such as redundancy and inconsistency. The most commonly used
+free from certain types of data irregularities, such as redundancy and inconsistency.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn."
+C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:para600:4,0.4997,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2540, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2014, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","The most commonly used
 normal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal Form), and BCNF (Boyce-Codd Normal
 Form).
 Normalization is the process of applying these rules to a database. The data must be organized and cleaned,
 which involves removing duplicates and erroneous data, filling in missing values, and logically arranging the
 data. To uphold data standardization, regular quality control measures should be implemented, including
-periodic data audits to ascertain the accuracy and consistency of the data. It is also important to document the
-standardization process, including the guidelines and procedures followed. Periodic review and updates of
-data standards are necessary to ensure the ongoing reliability and relevance of the data.
-Data normalization ensures that data is maintainable regardless of its source. Consider a marketing team
-collecting data on their customers’ purchasing behavior so they can make some decisions about product
-placement.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn."
-C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,2,openstax-pds-ch02:p90:para1500:0,0.4479,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1495, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","duplicates as well as converting data from various sources into a unified format, often termed a normal form
-(defined in the next section). Data transformation involves modifying the data to make it more suitable for
-the analysis that is planned. Data validation ensures that the data is accurate and consistent and meets
-certain criteria or standards. Table 2.4 summarizes these processes, which are explored in more depth later in
-the chapter.
-Purpose Techniques Example
+periodic data audits to ascertain the accuracy and consistency of the data.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn."
+C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p90:para600:1,0.4619,Principles-of-Data-Science-WEB.pdf,90,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1036, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 446, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Purpose Techniques Example
 Normalization To eliminate
 redundant data
 and ensure data
@@ -535,127 +428,91 @@ cleaning, data
 merging, data
 splitting, data
 conversion, and data
-aggregation.
-A dataset with different date
-formats, such as “MM/DD/YYYY”
-and “YYYY/MM/DD.” Data
-transformation can be used to
-convert all dates to a single
-format
-Validation To improve the
-quality of data
-used in analysis. It
-ensures that the
-data is accurate,
-relevant, and
-consistent.
-Include data
-profiling, data audits,
-and data cleansing.
-In a survey, the respondent’s age
-is recorded as 150 years.
-Through data validation, this
-value can be identified as
-erroneous.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn."
-C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,3,openstax-pds-ch02:p101:para1500:0,0.4016,Principles-of-Data-Science-WEB.pdf,101,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 1393, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","DBMS Function Description Benefit
-Data organization Helps to manage data in a
-structured format
-Makes data more manageable for
-performing analysis and identifying patterns
-or relationships between different data
-points
-Data security Provides strong security
-measures to protect sensitive
-data from unauthorized access
-Protects sensitive data such as personal
-information or financial data from
-unauthorized access
-Data integration Permits the integration of data
-from multiple sources
-Makes it possible to combine and analyze
-data from different datasets
-Table 2.9 Functions of Database Management Systems (DBMS)
-Implementation of database management techniques has become important for hospitals in achieving better
-patient outcomes and reducing costs. This strategy involves the collection and analysis of patient data from
-different sources, including electronic health records, medical imaging, and lab results. For example, hospitals
-are utilizing this approach to improve treatment for patients with chronic conditions such as diabetes and
-heart disease. By leveraging data-driven insights and identifying patterns, health care experts can develop
-personalized remedy plans for each patient, guiding them to enhanced health and wellness as well as cost
-savings for the hospital. This showcases the significance of incorporating advanced data management
-techniques in health care systems.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa định nghĩa NF + các dạng chuẩn + normalization; p90. | Metadata: source/page/section khớp nguồn."
-C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:para1500:2,0.6247,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4236, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2861, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","It is also often used in studies where convenience and accessibility are
-important factors, as participants may be more likely to volunteer if the study is easily accessible to them.
-Volunteer sampling is not considered a random or representative sampling technique, as the participants
+aggregation.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. | Metadata: source/page/section khớp nguồn."
+C,t03,What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?,"A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",null,4,openstax-pds-ch02:p94:para600:1,0.4558,Principles-of-Data-Science-WEB.pdf,94,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 1074, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 486, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","For example, a company may set up a data validation
+process to ensure that all customer information entered into its database follows a specific format. This would
+involve checking for correct spellings and proper formatting of phone numbers and addresses and validating
+the correctness of customer names and account numbers. The data would also be checked against external
+sources, such as official government records, to verify the accuracy of the information. Any discrepancies or
+errors would be flagged for correction before the data is used for analysis or decision-making purposes.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn định nghĩa NF (kể cả redundancy/inconsistency); r2 liệt kê 1NF/2NF/3NF/BCNF; p90. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,1,openstax-pds-ch02:p74:para600:6,0.6144,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3043, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2536, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling refers to the fact that the participants are not picked at random
+by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
+commonly used in studies that involve recruiting participants from a specific population, such as a specific
+community or organization. It is also often used in studies where convenience and accessibility are
+important factors, as participants may be more likely to volunteer if the study is easily accessible to them.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
+C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:para600:7,0.6089,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3633, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3044, ""chunk_index"": 7, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Volunteer sampling is not considered a random or representative sampling technique, as the participants
 may not accurately represent the larger population. Therefore, the results obtained from volunteer
 sampling may not be generalizable to the entire population.
 Sampling Error
 Sampling error is the difference between the results obtained from a sample and the true value of the
 population parameter it is intended to represent. It is caused by chance and is inherent in any sampling
-method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results. To
-avoid sampling error, researchers can increase sample size, use probability sampling methods, control for
-extraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.
-Sampling Bias
-Sampling bias occurs when the sample used in a study isn’t representative of the population it intends to
-generalize to, leading to skewed or inaccurate conclusions. This bias can take many forms, such as selection
-bias, where certain groups are systematically over- or underrepresented, or volunteer bias, where only a
-specific subset of the population participates.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
-C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,2,openstax-pds-ch02:p74:para1500:1,0.5863,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2860, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1428, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This type of sampling can be useful in
-studying hard-to-reach or sensitive populations, but it may also be biased and limit the generalizability of
-findings.
-8. Quota sampling. Quota sampling is a non-probability sampling technique in which experimenters select
-participants based on predetermined quotas to guarantee that a certain number or percentage of the
-population of interest is represented in the sample. These quotas are based on specific demographic
-characteristics, such as age, gender, ethnicity, and occupation, which are believed to have a direct or
-indirect relationship with the research topic. Quota sampling is generally used in market research and
+method. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
+C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:para600:5,0.5358,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 2535, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2040, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Quota sampling is generally used in market research and
 opinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of
 individuals. However, it is important to note that the results of quota sampling may not accurately
 represent the entire population, as the sample is not randomly selected and may be biased toward certain
 characteristics. Therefore, the findings from studies using quota sampling should be interpreted with
 caution.
-9. Volunteer sampling. Volunteer sampling refers to the fact that the participants are not picked at random
-by the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is
-commonly used in studies that involve recruiting participants from a specific population, such as a specific
-community or organization.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
-C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,3,openstax-pds-ch02:p74:para1500:3,0.4909,Principles-of-Data-Science-WEB.pdf,74,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 4474, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 4237, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","Researchers use the sampling techniques summarized earlier to
-avoid sampling bias and ensure that each member of the population has an equal chance of being included in
-64 2 • Collecting and Preparing Data
-Access for free at openstax.org",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r1 chứa cả lý do và kết luận về volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
-C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",1,openstax-pds-ch02:p99:para1500:2,0.6259,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3285, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2889, ""chunk_index"": 2, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","This allows for direct
+9. Volunteer sampling.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. | Metadata: source/page/section khớp nguồn."
+C,t04,Can the results of a study that uses volunteer sampling be generalized to the whole population?,"No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",null,4,openstax-pds-ch02:p73:para600:6,0.4984,Principles-of-Data-Science-WEB.pdf,73,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.2"", ""char_end"": 3735, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 3135, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Survey Design and Implementation""}","This process is
+straightforward to implement, and it provides a representative sample when the population is randomly
+distributed. However, if there is a pattern in the sampling frame (the organizing structure that represents
+the population from which a sample is drawn), it may lead to a biased sample.
+Suppose a researcher wants to study the dietary habits of students in a high school. The researcher has a
+list of all the students enrolled in the school, which is approximately 1,000 students. Instead of randomly
+selecting a sample of students, the researcher decides to use systematic sampling.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r2 chứa lý do và kết luận về volunteer sampling; r1 có định nghĩa volunteer sampling; p74. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",1,openstax-pds-ch02:p99:para600:5,0.5954,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 3252, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2659, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Each node contains a range of data values and
+pointers to child nodes, allowing for efficient searching within a specific range of values.
+Hashes indexing involves using a hash function to map data to a specific index in a table. This allows for direct
 access to the data based on its hashed value, making retrieval faster than traditional sequential searching.
 Bitmap indexing is a technique that involves creating a bitmap for each different value in a dataset. The
 bitmaps are then combined to quickly identify records that match a specific set of values, allowing efficient
-data retrieval.
-2.5 • Handling Large Datasets 89",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
-C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",2,openstax-pds-ch02:p99:para1500:1,0.5369,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2888, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1479, ""chunk_index"": 1, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","It is commonly used for business intelligence and
-reporting intentions.
-4. Cloud storage. Cloud storage involves storing data in remote servers accessed over the internet. It offers
+data retrieval.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn."
+C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",2,openstax-pds-ch02:p99:para600:4,0.5417,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2658, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2170, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Data indexing refers to the process of managing and saving the collected and generated data in a
+database or other data storage system in a way that allows for efficient and fast return of specific data.
+Indexing techniques vary in how they organize and store data, but they all aim to improve data retrieval
+performance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with
+a root node and branches that contain pointers to other nodes.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn."
+C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",3,openstax-pds-ch02:p99:para600:3,0.4488,Principles-of-Data-Science-WEB.pdf,99,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 2169, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1651, ""chunk_index"": 3, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","It offers
 scalability, cost-effectiveness, and remote accessibility.
 5. Object storage. With object storage, data are stored as objects that consist of both data and metadata.
 This method is often used for storing large volumes of unstructured data, such as images and videos.
 Data Indexing
 Data indexing is an important aspect of data management and makes it easier to retrieve specific data quickly
 and efficiently. It is a crucial strategy for optimizing the performance of databases and other data storage
-systems. Data indexing refers to the process of managing and saving the collected and generated data in a
-database or other data storage system in a way that allows for efficient and fast return of specific data.
-Indexing techniques vary in how they organize and store data, but they all aim to improve data retrieval
-performance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with
-a root node and branches that contain pointers to other nodes. Each node contains a range of data values and
-pointers to child nodes, allowing for efficient searching within a specific range of values.
-Hashes indexing involves using a hash function to map data to a specific index in a table.",True,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
-C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",3,openstax-pds-ch02:p100:para1500:0,0.461,Principles-of-Data-Science-WEB.pdf,100,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 1438, ""chunking"": ""para1500"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Figure 2.5 B-Tree Indexing
+systems.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn câu Hashes indexing + direct access; p99. | Metadata: source/page/section khớp nguồn."
+C,t05,"Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?","Hash indexing, which uses a hash function to map data to a specific index in a table.","{""section"": ""2.5""}",4,openstax-pds-ch02:p100:para600:0,0.4408,Principles-of-Data-Science-WEB.pdf,100,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.5"", ""char_end"": 501, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Handling Large Datasets""}","Figure 2.5 B-Tree Indexing
 Data Chunking
 Data chunking, also known as data segmentation or data partitioning, is a technique used to break down
 large datasets into smaller, more manageable chunks and make them easier to manage, process, analyze, and
 store. Chunking is particularly useful when datasets are too large to be processed or analyzed as a single unit.
 By dividing the data into smaller chunks, various processing tasks can be distributed across multiple
-computing nodes or processing units.
-Data chunking is used in data storage systems and data transmission over networks, and it is especially useful
-when working with large datasets that exceed the capacity of a single machine or when transferring data over
-a network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of
-each chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes.
-These chunks are typically organized sequentially, with each chunk containing a set of data from the larger
-dataset. The process of data chunking also involves adding metadata (data that provides information about
-other data), such as the chunk number and the total number of chunks, to each chunk. This metadata allows
-the chunks to be reassembled into the original dataset after being transmitted or stored separately. Data
-chunking has several advantages, including the following:
-1. Increased speed.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Giống B (C dùng cùng index B; chỉ t05 có filter section=2.5, top-3 không đổi). r2 có câu 'Hashes indexing ... hash function ... index in a table', r1 có phần 'direct access ... faster than sequential searching'; câu bị chia đôi giữa 2 chunk nhưng gộp top-3 vẫn đủ; p99. | Metadata: source/page/section khớp nguồn."
+computing nodes or processing units.",False,1,2,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chứa trọn câu Hashes indexing + direct access; p99. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."
+C,t06,How many common text-processing mentioned in the table?,10,"{""section"": ""2.4""}",1,openstax-pds-ch02:p95:para600:0,0.4829,Principles-of-Data-Science-WEB.pdf,95,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 394, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 0, ""chunk_index"": 0, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","aggregation to study energy consumption patterns.
+Text Preprocessing
+Text preprocessing is a technique of preparing data in text format for further analysis and natural language
+processing tasks. It involves transforming unstructured text data into a more structured format to be
+interpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in
+Table 2.8.",True,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn."
+C,t06,How many common text-processing mentioned in the table?,10,"{""section"": ""2.4""}",2,openstax-pds-ch02:p97:para600:4,0.4742,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2265, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 1717, ""chunk_index"": 4, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Removing special
+characters and
+punctuation
+Simplifying the
+text for analysis
+Consider the input: “Hello, this is a text with @special#
+characters!*” and the output: “Hello this is a text with special
+characters”
+Table 2.8 Summary of Text Preprocessing Techniques
+Text preprocessing is crucial to effectively use text data for tasks such as text classification and information
+extraction. By transforming the raw text data, the accuracy and performance of machine learning models can
+greatly improve and provide meaningful insights and predictions.",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn."
+C,t06,How many common text-processing mentioned in the table?,10,"{""section"": ""2.4""}",3,openstax-pds-ch02:p97:para600:6,0.4564,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 3158, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2824, ""chunk_index"": 6, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","This can include tasks such as removing accents and diacritics, expanding
+contractions, and converting numbers into their written representations (e.g., “10” to “ten”). Normalizing text
+data helps to reduce the number of variations and therefore improves the efficiency and accuracy of natural
+2.4 • Data Cleaning and Preprocessing 87",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. | Metadata: source/page/section khớp nguồn."
+C,t06,How many common text-processing mentioned in the table?,10,"{""section"": ""2.4""}",4,openstax-pds-ch02:p97:para600:5,0.4181,Principles-of-Data-Science-WEB.pdf,97,"{""book"": ""Principles of Data Science"", ""unit"": 1, ""year"": 2025, ""title"": ""Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data"", ""chapter"": 2, ""section"": ""2.4"", ""char_end"": 2823, ""chunking"": ""para600"", ""language"": ""en"", ""publisher"": ""OpenStax"", ""char_start"": 2266, ""chunk_index"": 5, ""document_type"": ""textbook"", ""section_title"": ""Data Cleaning and Preprocessing""}","Text preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text
+analysis, classification, information retrieval, sentiment analysis, and many other natural language processing
+tasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model
+performance, improved efficiency, and more accurate insights from text data.
+An example of text preprocessing in artificial intelligence involves the conversion of text data into a more
+standardized and consistent format.",False,1,1,"[AI đề xuất - cần tác giả rà soát] Grounding (gộp top-3 của câu): Top-3 giống B (C dùng cùng index B; filter section chỉ áp cho t05, t06). Hạng 4 khác B: filter section=2.4 loại chunk p98 (section=2.5) và thay bằng p97:para600:5. r1 chỉ có câu dẫn tới Table 2.8; r2 có dòng cuối của bảng (Removing special characters) + chú thích. Không đủ 10 dòng của bảng (p95-97) để đếm; Hit tự động chỉ khớp câu dẫn. Hạng 4 nằm ngoài top-3 nên không tính vào grounding. | Metadata: source/page/section khớp nguồn."

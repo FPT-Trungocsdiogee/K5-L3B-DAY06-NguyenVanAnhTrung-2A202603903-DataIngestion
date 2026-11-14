@@ -153,6 +153,14 @@
       "gold_source_id": "openstax-pds-ch02", "gold_page": 99,
       "evidence_quote": "Hashes indexing involves using a hash function to map data to a specific index in a table.",
       "filter": {"section": "2.5"}
+    },
+    {
+      "id": "t06", "split": "test", "type": "metadata",
+      "question": "How many common text-processing mentioned in the table?",
+      "expected_answer": "10",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": [95, 96, 97],
+      "evidence_quote": " Some common techniques used in text preprocessing are reviewed in Table 2.8. ",
+      "filter": {"section": "2.4"}
     }
   ]
 }
