@@ -1,4 +1,7 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A (lần chạy 1),fixed_size theo trang,500,50,"document_id, source, page, char_start/char_end + metadata manifest (title, book, publisher, year, language, document_type, unit, chapter, section, section_title)",không,openrouter / openai/text-embedding-3-small (1536 chiều) + pgvector 0.8.7 cosine exact,"Baseline: cắt cứng dễ cắt đôi evidence nên Hit@3 thấp hơn B",9/15,11/15,2/5,3/5,"268 chunk, 25600 token, $0.000512. Bị thay tham số sau lần chạy này (đã thấy cả dev và test)"
+B (lần chạy 1),by_paragraph (gom câu theo trang),800 (tối đa),0,giống A,không,giống A,"A→B chỉ đổi chunking: ranh giới ở cuối câu giữ trọn ý nên Evidence Hit@3 tăng",7/15,15/15,4/5,5/5,"172 chunk, 22991 token, $0.00046"
+C (lần chạy 1),dùng chung index B (800),800 (tối đa),0,giống A,"section, chỉ cho q13 (2.3), q14 (2.5), q15 (2.4), t05 (2.5)",giống A,"B→C chỉ thêm filter section",7/15,15/15,4/5,5/5,"Trùng B"
+A (chốt),fixed_size theo trang,500,100,giống trên,không,giống trên,"Tăng overlap 50→100 để giảm evidence bị cắt",10/15,13/15,4/5,5/5,"291 chunk, trung vị 500, 28373 token, $0.000567, ingest 16.31s; 1 evidence bị cắt thật (q02, quote 189 ký tự > overlap)"
+B (chốt),by_paragraph (gom câu theo trang),1500 (tối đa),0,giống trên,không,giống trên,"Chunk lớn hơn chứa đủ ngữ cảnh hơn",8/15,14/15,4/5,5/5,"99 chunk, trung vị 1389, 22979 token, $0.00046, ingest 6.63s; PDF không có dòng trống nên thực chất là gom câu; q08 trượt do chunk 1422 ký tự trộn nhiều chủ đề"
+C (chốt),dùng chung index B (1500),1500 (tối đa),0,giống trên,"section, chỉ cho q13, q14, q15, t05",giống trên,"Filter section loại chunk ngoài mục, có thể tăng Hit@1 ở câu metadata",8/15,14/15,4/5,5/5,"Không embed lại; tuân thủ filter top-3: 3/3 dev, 1/1 test; kết quả trùng B vì B không lọc đã trả về đúng mục"

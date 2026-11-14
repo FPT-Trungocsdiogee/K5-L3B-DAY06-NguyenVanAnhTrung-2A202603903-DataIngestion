@@ -50,15 +50,17 @@ from .ingestion import count_pdf_pages, load_pdf
 from .models import Chunk, DocumentPage
 from .store import PgVectorStore
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
-RESULTS = ROOT / "results"
+ROOT = Path(__file__).resolve().parents[1]          # starter/ (chứa .env)
+REPO = ROOT.parent                                  # thư mục gốc repo bài nộp
+DATA = REPO / "data"                                # manifest.json
+BENCHMARK = REPO / "benchmark"                      # benchmark.json
+RESULTS = REPO / "results"
 
 DEFAULT_MODEL = "openai/text-embedding-3-small"   # dùng khi EMBEDDING_MODEL trong .env để trống
 TOP_K = 3
 MIN_CONTENT_PAGES = 30                            # yêu cầu tối thiểu của lab
-FIXED_SIZE, FIXED_OVERLAP = 500, 50               # tham số chiến lược A
-PARAGRAPH_MAX_SIZE = 800                          # tham số chiến lược B và C
+FIXED_SIZE, FIXED_OVERLAP = 500, 100               # tham số chiến lược A
+PARAGRAPH_MAX_SIZE = 1500                          # tham số chiến lược B và C
 
 # Một "index" là một bộ chunk đã lưu. C tìm trên chính các chunk của B và chỉ thêm
 # filter, nên khác biệt B-C chỉ do filter (không embed lại lần hai).
@@ -232,7 +234,7 @@ def main() -> None:
     pages, ingestion_log = load_corpus(DATA / "manifest.json")
     (RESULTS / "ingestion_log.json").write_text(
         json.dumps(ingestion_log, ensure_ascii=False, indent=2), encoding="utf-8")
-    questions, problems = load_benchmark(DATA / "benchmark.json", pages)
+    questions, problems = load_benchmark(BENCHMARK / "benchmark.json", pages)
     if len(pages) < MIN_CONTENT_PAGES:
         problems.insert(0, f"need >= {MIN_CONTENT_PAGES} content pages; got {len(pages)}")
     for problem in problems:

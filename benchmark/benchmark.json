@@ -43,7 +43,7 @@
       "question": "How many sampling techniques mentioned in this book?",
       "expected_answer": "9",
       "gold_source_id": "openstax-pds-ch02", "gold_page": [72,73,74],
-      "evidence_quote": "Simple random selection, Stratified sampling, Cluster sampling, Convenience sampling, Systematic sampling, Purposive sampling, Snowball sampling, Quota sampling, Volunteer sampling"
+      "evidence_quote": "A number of sampling techniques and their advantages are described below."
     },
     {
       "id": "q06", "split": "dev", "type": "dien_dat_lai",
