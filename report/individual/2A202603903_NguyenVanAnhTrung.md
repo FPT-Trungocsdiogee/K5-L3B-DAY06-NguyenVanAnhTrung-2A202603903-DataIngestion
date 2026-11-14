@@ -4,14 +4,20 @@ Học viên: Nguyễn Văn Anh Trung — MSSV 2A202603903 — Lớp L3B
 
 ## Dữ liệu và pipeline
 
-- **Chủ đề, nguồn/quyền, số trang và quy tắc tính trang:** Phần 2 - Unit 1 *Collecting and Preparing Data* của giáo trình OpenStax *Principles of Data Science* (2025, bản PDF "WEB", ISBN 978-1-961584-60-0), tải từ https://openstax.org/details/books/principles-data-science ngày 2026-11-13. Giấy phép CC BY-NC-SA 4.0: chỉ dùng phi thương mại, giữ ghi công. PDF có 569 trang vật lý. Chỉ tính phần được nói đến(Introduction và các mục 2.1–2.5), tức **PDF trang 67–103 = 37 trang nội dung**, 112.893 ký tự sau chuẩn hóa. Chi tiết nằm ở [data/manifest.json](../../data/manifest.json).
-- **Chuẩn hóa, lỗi và giới hạn:** Trích xuất từng trang bằng `pypdf` 6.21.4, rồi chuẩn hóa ([starter/src/ingestion.py](../../starter/src/ingestion.py)): Unicode NFC, xóa ký tự vô hình (soft hyphen, zero-width, BOM), gộp khoảng trắng nhưng giữ xuống dòng. Mỗi trang lỗi hoặc rỗng được ghi riêng. Kết quả [results/ingestion_log.json](../../results/ingestion_log.json): 37/37 trang có text, **0 trang rỗng, 0 lỗi trích xuất**, không cần OCR. Giới hạn: (1) bảng bị trải phẳng thành dòng văn bản (Table 2.4, 2.8); (2) công thức normalization trên trang 91 là hình nên không trích xuất được; (3) header/footer như "Access for free at openstax.org" lẫn vào text; (4) **pypdf không tạo dòng trống giữa các đoạn (0 ngắt đoạn trong toàn corpus)**, ảnh hưởng tới chiến lược B (xem phần Phân tích).
+- **Chủ đề, nguồn/quyền, số trang và quy tắc tính trang:** 
+Phần 2 - Unit 1 *Collecting and Preparing Data* của giáo trình OpenStax *Principles of Data Science* (2025, bản PDF "WEB", ISBN 978-1-961584-60-0), tải từ https://openstax.org/details/books/principles-data-science ngày 2026-11-13. Giấy phép CC BY-NC-SA 4.0: chỉ dùng phi thương mại, giữ ghi công. PDF có 569 trang vật lý. Chỉ tính phần được nói đến(Introduction và các mục 2.1–2.5), tức **PDF trang 67–103 (37 trang nội dung)**. Chi tiết nằm ở [data/manifest.json](../../data/manifest.json).
+- **Chuẩn hóa, lỗi và giới hạn:** Trích xuất từng trang bằng `pypdf` 6.21.4, rồi chuẩn hóa ([starter/src/ingestion.py](../../starter/src/ingestion.py)): Unicode NFC, xóa ký tự vô hình (soft hyphen, zero-width, BOM), gộp khoảng trắng nhưng giữ xuống dòng. Mỗi trang lỗi hoặc rỗng được ghi riêng. Kết quả [results/ingestion_log.json](../../results/ingestion_log.json): 37/37 trang có text, **0 trang rỗng, 0 lỗi trích xuất**, không cần OCR. 
+Các giới hạn gặp phải trong quá trình thực hiện: 
+  1. Bảng bị trải phẳng thành dòng văn bản (Table 2.4, 2.8)  
+  2. Công thức normalization trên trang 91 là hình nên không trích xuất được 
+  3. Các header/footer như "Access for free at openstax.org" lẫn vào text; 
+  4. `pypdf` không tạo dòng trống giữa các đoạn (0 ngắt đoạn trong toàn corpus), ảnh hưởng tới chiến lược B (xem phần Phân tích).
 - **Embedding, vector store, metric, lệnh chạy và chi phí:**
   - Embedding: OpenRouter → `openai/text-embedding-3-small`, 1536 chiều. Tài liệu và câu hỏi dùng cùng model, không thêm tiền tố. Gọi HTTP bằng thư viện chuẩn, không có fallback sang vector giả; lỗi provider được báo ra ([starter/src/embeddings.py](../../starter/src/embeddings.py)).
-  - Vector store: PostgreSQL 16.16 + pgvector 0.8.7 (Docker image `pgvector/pgvector:0.8.7-pg16`), bảng `chunks` với khóa `(strategy, chunk_id)`. Metric cosine (`<=>`), **tìm kiếm chính xác** (không dùng index ANN). Filter metadata chạy trong SQL ([starter/src/store.py](../../starter/src/store.py)).
+  - Vector store: PostgreSQL 16.16 + pgvector 0.8.7 (Docker image `pgvector/pgvector:0.8.7-pg16`), bảng `chunks` với khóa `(strategy, chunk_id)`. Metric cosine (`<=>`), **tìm kiếm chính xác**. Filter metadata chạy trong SQL ([starter/src/store.py](../../starter/src/store.py)).
   - Phiên bản: Python 3.14.7, psycopg 3.3.8, pypdf 6.21.4.
   - Lệnh chạy (từ `starter/`): `docker compose -p day6_student_starter up -d --wait`, `python scripts/check_setup.py`, rồi `python -m src.run`.
-  - Chi phí lần chạy chốt(2026-11-14 05:23 UTC): tổng 51.627 token, **≈ 0,001 USD** (index A 0.000567 USD, index B 0.00046 USD, phần còn lại là embedding câu hỏi).
+  - Chi phí lần chạy chốt(14/11/2026 12:23 GMT+7): tổng 51.627 token, **≈ 0,001 USD** (index A 0.000567 USD, index B 0.00046 USD, phần còn lại là embedding câu hỏi).
 - **Metadata bắt buộc, trường lọc bổ sung, nguồn giá trị và lý do chọn:**
   - Mỗi chunk có `document_id` (`openstax-pds-ch02`), `source` (tên file PDF), `page` (số trang PDF vật lý, int), `char_start`/`char_end` (vị trí trong trang), `chunking` và `chunk_index`.
   - Metadata của tài liệu (lấy từ trang bản quyền và mục lục): `title`, `book`, `publisher`, `year` (int, 2025), `language` (`en`), `document_type` (`textbook`), `unit` (int), `chapter` (int).
@@ -20,12 +26,12 @@ Học viên: Nguyễn Văn Anh Trung — MSSV 2A202603903 — Lớp L3B
 
 ## Cấu hình và benchmark
 
-- **A / B / C:**
+- Chiến lược **A / B / C:**
   - **A:** `fixed_size(size=500, overlap=100)`. Cắt cửa sổ ký tự trong từng trang. 291 chunk.
   - **B:** `by_paragraph(max_size=1500)`. Gom các đơn vị liền nhau (đoạn; đoạn quá dài thì tách theo câu) thành chunk ≤ 1500 ký tự, ranh giới luôn ở cuối câu, không overlap. 99 chunk.
   - **C:** dùng **chính index B** (không embed lại) và thêm `WHERE metadata->>'section' = …`, chỉ áp cho câu có `filter`. **Khác biệt duy nhất B–C là filter**; A–B khác chunking.
   - Cả ba dùng cùng corpus, model, store, metric cosine và top-k = 3.
-- **≥20 câu:** 20 câu trong [benchmark/benchmark.json](../../benchmark/benchmark.json), gồm **15 dev (q01–q15) / 5 test (t01–t05)**.
+- **Câu hỏi:** 20 câu hỏi trong [benchmark/benchmark.json](../../benchmark/benchmark.json), gồm **15 câu dev (q01–q15) / 5 câu test (t01–t05)**.
   - Loại câu: trực tiếp (q01–q05, t01, t02), diễn đạt lại (q06–q09, t03), điều kiện/ngoại lệ (q10–q12, t04), metadata filter (q13 section 2.3, q14 2.5, q15 2.4, **t05 2.5 thuộc test**).
   - Kiểm chứng: `load_benchmark` trong [run.py](../../starter/src/run.py) kiểm tra mọi `evidence_quote` thực sự nằm trên trang gold sau chuẩn hóa (so sánh không phân biệt hoa/thường và khoảng trắng), và mọi giá trị filter có tồn tại trong corpus. Lần chạy chốt báo **0 vấn đề**.
   - Câu có filter tránh đặt evidence ở đầu các trang 68, 71, 76, 98 (đoạn cuối mục trước mang nhãn mục sau).
@@ -51,12 +57,7 @@ Lần chạy chốt: A = 500/100, B/C = 1500. Thời gian là thời gian chunk 
 | B | 1,6 (n=10) | 14/15 | Không áp filter. Đo tham khảo: test 1/1, dev 3/3 | 0/0/5, trung bình 2,0 |
 | C | 1,6 (n=10, cùng chunk với B) | 14/15 | **test 1/1, dev 3/3** | 0/0/5, trung bình 2,0 |
 
-**Lần chạy đầu** (A = 500/50, B/C = 800; xem [artifacts/experiment_log.csv](../../artifacts/experiment_log.csv)):
 
-| | Dev Hit@1 | Dev Hit@3 | Test Hit@1 | Test Hit@3 |
-|---|---|---|---|---|
-| A | 9/15 | 11/15 | 2/5 | 3/5 |
-| B và C | 7/15 | 15/15 | 4/5 | 5/5 |
 
 **Đường dẫn trace, nhãn thủ công và cách chọn mẫu:**
 - Trace top-3 (câu hỏi, chunk_id, text, score, metadata, gold, is_hit) của cả ba chiến lược: [results/traces.jsonl](../../results/traces.jsonl). Tổng hợp: [results/summary.json](../../results/summary.json).
